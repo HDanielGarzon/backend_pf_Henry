@@ -10,7 +10,7 @@ const muebles=[
         "ancho": "200 cm",
         "profundidad": "90 cm"
       },
-      "imagen": "https://m.media-amazon.com/images/I/619JCc-+eVL._AC_SL1500_.jpg"
+      "image": "https://m.media-amazon.com/images/I/619JCc-+eVL._AC_SL1500_.jpg"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@ const muebles=[
         "ancho": "150 cm",
         "profundidad": "90 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_973518-MLA54693655061_032023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_973518-MLA54693655061_032023-O.webp"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@ const muebles=[
         "ancho": "200 cm",
         "profundidad": "180 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_922265-MLA31114464781_062019-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_922265-MLA31114464781_062019-O.webp"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@ const muebles=[
         "ancho": "60 cm",
         "profundidad": "65 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_860579-MLA50170186747_062022-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_860579-MLA50170186747_062022-O.webp"
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@ const muebles=[
         "ancho": "210 cm",
         "profundidad": "95 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_701327-MLA44918395703_022021-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_701327-MLA44918395703_022021-O.webp"
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@ const muebles=[
         "ancho": "120 cm",
         "profundidad": "60 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_738818-MLA51652497510_092022-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_738818-MLA51652497510_092022-O.webp"
     },
     {
       "id": 7,
@@ -82,7 +82,7 @@ const muebles=[
         "ancho": "90 cm",
         "profundidad": "190 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_917838-MLA70905104446_082023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_917838-MLA70905104446_082023-O.webp"
     },
     {
       "id": 8,
@@ -94,7 +94,7 @@ const muebles=[
         "ancho": "50 cm",
         "profundidad": "50 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_612989-MLA71087266240_082023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_612989-MLA71087266240_082023-O.webp"
     },
     {
       "id": 9,
@@ -106,7 +106,7 @@ const muebles=[
         "ancho": "120 cm",
         "profundidad": "60 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_670416-MLA53446375005_012023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_670416-MLA53446375005_012023-O.webp"
     },
     {
       "id": 10,
@@ -118,7 +118,7 @@ const muebles=[
         "ancho": "250 cm",
         "profundidad": "150 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_694141-MLA44813935562_022021-F.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_694141-MLA44813935562_022021-F.webp"
     },
     {
       "id": 11,
@@ -130,7 +130,7 @@ const muebles=[
         "ancho": "120 cm",
         "profundidad": "120 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_836152-MLA46293960514_062021-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_836152-MLA46293960514_062021-O.webp"
     },
     {
       "id": 12,
@@ -142,7 +142,7 @@ const muebles=[
         "ancho": "160 cm",
         "profundidad": "200 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_969635-MLA70591798795_072023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_969635-MLA70591798795_072023-O.webp"
     },
     {
       "id": 13,
@@ -154,7 +154,7 @@ const muebles=[
         "ancho": "60 cm",
         "profundidad": "55 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_978467-MLA69502317582_052023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_978467-MLA69502317582_052023-O.webp"
     },
     {
       "id": 14,
@@ -166,7 +166,7 @@ const muebles=[
         "ancho": "200 cm",
         "profundidad": "100 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_990639-MLU71044039090_082023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_990639-MLU71044039090_082023-O.webp"
     },
     {
       "id": 15,
@@ -178,7 +178,7 @@ const muebles=[
         "ancho": "120 cm",
         "profundidad": "70 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_776167-MLA69837709729_062023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_776167-MLA69837709729_062023-O.webp"
     },
     {
       "id": 16,
@@ -190,7 +190,7 @@ const muebles=[
         "ancho": "90 cm",
         "profundidad": "180 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_761236-MLA70746599881_072023-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_761236-MLA70746599881_072023-O.webp"
     },
     {
       "id": 17,
@@ -202,7 +202,7 @@ const muebles=[
         "ancho": "60 cm",
         "profundidad": "55 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_838267-MLA52150497263_102022-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_838267-MLA52150497263_102022-O.webp"
     },
     {
       "id": 18,
@@ -214,7 +214,7 @@ const muebles=[
         "ancho": "120 cm",
         "profundidad": "60 cm"
       },
-      "imagen": "https://www.megatone.net/images//Articulos/zoom2x/132/MKT0143CTR-1.jpg"
+      "image": "https://www.megatone.net/images//Articulos/zoom2x/132/MKT0143CTR-1.jpg"
     },
     {
       "id": 19,
@@ -226,7 +226,7 @@ const muebles=[
         "ancho": "220 cm",
         "profundidad": "100 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_807117-MLA51739692118_092022-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_807117-MLA51739692118_092022-O.webp"
     },
     {
       "id": 20,
@@ -238,7 +238,7 @@ const muebles=[
         "ancho": "140 cm",
         "profundidad": "80 cm"
       },
-      "imagen": "https://desillas.com/img/productos/ZSJHHR_1.jpg"
+      "image": "https://desillas.com/img/productos/ZSJHHR_1.jpg"
     },
     {
       "id": 21,
@@ -250,7 +250,7 @@ const muebles=[
         "ancho": "100 cm",
         "profundidad": "190 cm"
       },
-      "imagen": "https://m.media-amazon.com/images/I/8123d78YbPL._AC_UF894,1000_QL80_.jpg"
+      "image": "https://m.media-amazon.com/images/I/8123d78YbPL._AC_UF894,1000_QL80_.jpg"
     },
     {
       "id": 22,
@@ -262,7 +262,7 @@ const muebles=[
         "ancho": "55 cm",
         "profundidad": "50 cm"
       },
-      "imagen": "https://desillas.com/img/productos/PVFOHS_3.jpg"
+      "image": "https://desillas.com/img/productos/PVFOHS_3.jpg"
     },
     {
       "id": 23,
@@ -274,7 +274,7 @@ const muebles=[
         "ancho": "140 cm",
         "profundidad": "70 cm"
       },
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_905930-MLA51918535300_102022-O.webp"
+      "image": "https://http2.mlstatic.com/D_NQ_NP_905930-MLA51918535300_102022-O.webp"
     },
     {
       "id": 24,
@@ -286,7 +286,7 @@ const muebles=[
         "ancho": "260 cm",
         "profundidad": "160 cm"
       },
-      "imagen": "https://www.form.cl/seccional-forma-gris-der.html"
+      "image": "https://www.form.cl/seccional-forma-gris-der.html"
     },
     {
       "id": 25,
@@ -298,7 +298,7 @@ const muebles=[
         "ancho": "110 cm",
         "profundidad": "70 cm"
       },
-      "imagen": "https://i.pinimg.com/1200x/64/8b/0e/648b0e6eaee9a8f6c844d167ebe0d5f0.jpg"
+      "image": "https://i.pinimg.com/1200x/64/8b/0e/648b0e6eaee9a8f6c844d167ebe0d5f0.jpg"
     }
   ]
   
