@@ -28,17 +28,15 @@ module.exports = (sequelize) => {
      image: {
         type: DataTypes.STRING,
         allowNull: true,
-        validate: {
-          isUrl: true,
-        },
+       
       },
       medidas: {
-        type: DataTypes.ENUM('alto', 'ancho', 'profundidad'),
+        type: DataTypes.JSON, 
         allowNull: false,
       },
      
-      
-   
+       
+    
     
     },
     { timestamps: false }
