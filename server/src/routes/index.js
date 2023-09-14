@@ -4,11 +4,11 @@ const router = Router();
 
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
-const usersRouter = require("./userRouter");
+const productRouter = require("./products");
 
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
-router.use("/users", usersRouter);
+router.use("/product", productRouter);
 
 
 module.exports = router;

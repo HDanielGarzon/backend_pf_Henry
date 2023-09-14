@@ -2,13 +2,13 @@
 const { Router } = require("express");
 const userRouter = Router();
 
-const {user} = require("../handlers/userHandler");
+const {muebles} = require("../handlers/productHandler");
 
 
 
 // endpoints: ruta de acceso a nuestro backend;
 
-userRouter.get("/", user);
+userRouter.get("/all", muebles);
 
 
 module.exports = userRouter;
