@@ -1,1 +1,0 @@
-const muebles=require("./data")
