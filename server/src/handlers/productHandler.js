@@ -1,11 +1,11 @@
-const {Products} = require("../db");
+const {mueblesdb} = require("../controllers/productController");
 
 
 
 
 const muebles=async (req,res)=>{
     try {
-        const allProducts=await Products.findAll();
+        const allProducts=await mueblesdb();
         res.status(200).json(allProducts)
 
     } catch (error) {
