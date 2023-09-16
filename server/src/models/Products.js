@@ -9,20 +9,20 @@ module.exports = (sequelize) => {
         primaryKey:true,
         defaultValue:DataTypes.UUIDV4,
       },
-      nombre: {
+      name: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      categoria: {
-        type: DataTypes.STRING,
-        allowNull: true,
-      },
+      // categoria: {
+      //   type: DataTypes.STRING,
+      //   allowNull: true,
+      // },
       color: {
         type: DataTypes.STRING,
         allowNull: false,
-        validate: {
-          isUrl: true,
-        },
+        // validate: {
+        //   isUrl: true,
+        // },
       },
      
      image: {
@@ -30,7 +30,7 @@ module.exports = (sequelize) => {
         allowNull: true,
        
       },
-      medidas: {
+      measures: {
         type: DataTypes.JSON, 
         allowNull: false,
       },

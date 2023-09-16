@@ -2,301 +2,302 @@ const muebles=[
   
     {
       // "id": "1",
-      "nombre": "Sofá de Cuero",
-      "categoria": "Sala de estar",
+      "name": "Sofá de Cuero",
+      "category": "Sala de estar",
       "color": "Negro",
-      "medidas": {
-        "alto": "85 cm",
-        "ancho": "200 cm",
-        "profundidad": "90 cm"
+      "measures": {
+        "heigth": "85 cm",
+        "width": "200 cm",
+        "deep": "90 cm"
       },
-      "image": "https://m.media-amazon.com/images/I/619JCc-+eVL._AC_SL1500_.jpg"
+      "image": "https://m.media-amazon.com/images/I/619JCc-+eVL._AC_SL1500_.jpg",
+      "categories":"31ea72e0-2451-48d4-861c-b6ccb59f0ab7"
     },
     {
       // "id": "2",
-      "nombre": "Mesa de Comedor",
-      "categoria": "Comedor",
+      "name": "Mesa de Comedor",
+      "category": "Comedor",
       "color": "Marrón",
-      "medidas": {
-        "alto": "75 cm",
-        "ancho": "150 cm",
-        "profundidad": "90 cm"
+      "measures": {
+        "heigth": "75 cm",
+        "width": "150 cm",
+        "deep": "90 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_973518-MLA54693655061_032023-O.webp"
     },
     {
       // "id": "3",
-      "nombre": "Cama King Size",
-      "categoria": "Dormitorio",
+      "name": "Cama King Size",
+      "category": "Dormitorio",
       "color": "Blanco",
-      "medidas": {
-        "alto": "120 cm",
-        "ancho": "200 cm",
-        "profundidad": "180 cm"
+      "measures": {
+        "heigth": "120 cm",
+        "width": "200 cm",
+        "deep": "180 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_922265-MLA31114464781_062019-O.webp"
     },
     {
       // "id": "4",
-      "nombre": "Silla de Oficina",
-      "categoria": "Oficina",
+      "name": "Silla de Oficina",
+      "category": "Oficina",
       "color": "Gris",
-      "medidas": {
-        "alto": "100 cm",
-        "ancho": "60 cm",
-        "profundidad": "65 cm"
+      "measures": {
+        "heigth": "100 cm",
+        "width": "60 cm",
+        "deep": "65 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_860579-MLA50170186747_062022-O.webp"
     },
     {
       // "id": "5",
-      "nombre": "Sofá Chesterfield",
-      "categoria": "Sala de estar",
+      "name": "Sofá Chesterfield",
+      "category": "Sala de estar",
       "color": "Azul",
-      "medidas": {
-        "alto": "80 cm",
-        "ancho": "210 cm",
-        "profundidad": "95 cm"
+      "measures": {
+        "heigth": "80 cm",
+        "width": "210 cm",
+        "deep": "95 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_701327-MLA44918395703_022021-O.webp"
     },
     {
       // "id": "6",
-      "nombre": "Mesa de Centro",
-      "categoria": "Sala de estar",
+      "name": "Mesa de Centro",
+      "category": "Sala de estar",
       "color": "Blanco",
-      "medidas": {
-        "alto": "45 cm",
-        "ancho": "120 cm",
-        "profundidad": "60 cm"
+      "measures": {
+        "heigth": "45 cm",
+        "width": "120 cm",
+        "deep": "60 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_738818-MLA51652497510_092022-O.webp"
     },
     {
       // "id": "7",
-      "nombre": "Cama Individual",
-      "categoria": "Dormitorio",
+      "name": "Cama Individual",
+      "category": "Dormitorio",
       "color": "Rosa",
-      "medidas": {
-        "alto": "100 cm",
-        "ancho": "90 cm",
-        "profundidad": "190 cm"
+      "measures": {
+        "heigth": "100 cm",
+        "width": "90 cm",
+        "deep": "190 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_917838-MLA70905104446_082023-O.webp"
     },
     {
       // "id": "8",
-      "nombre": "Silla de Comedor",
-      "categoria": "Comedor",
+      "name": "Silla de Comedor",
+      "category": "Comedor",
       "color": "Negro",
-      "medidas": {
-        "alto": "85 cm",
-        "ancho": "50 cm",
-        "profundidad": "50 cm"
+      "measures": {
+        "heigth": "85 cm",
+        "width": "50 cm",
+        "deep": "50 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_612989-MLA71087266240_082023-O.webp"
     },
     {
       // "id": "9",
-      "nombre": "Escritorio de Oficina",
-      "categoria": "Oficina",
+      "name": "Escritorio de Oficina",
+      "category": "Oficina",
       "color": "Marrón",
-      "medidas": {
-        "alto": "75 cm",
-        "ancho": "120 cm",
-        "profundidad": "60 cm"
+      "measures": {
+        "heigth": "75 cm",
+        "width": "120 cm",
+        "deep": "60 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_670416-MLA53446375005_012023-O.webp"
     },
     {
       // "id": "10",
-      "nombre": "Sofá Modular",
-      "categoria": "Sala de estar",
+      "name": "Sofá Modular",
+      "category": "Sala de estar",
       "color": "Gris",
-      "medidas": {
-        "alto": "75 cm",
-        "ancho": "250 cm",
-        "profundidad": "150 cm"
+      "measures": {
+        "heigth": "75 cm",
+        "width": "250 cm",
+        "deep": "150 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_2X_694141-MLA44813935562_022021-F.webp"
     },
     {
       // "id": "11",
-      "nombre": "Mesa de Comedor Redonda",
-      "categoria": "Comedor",
+      "name": "Mesa de Comedor Redonda",
+      "category": "Comedor",
       "color": "Blanco",
-      "medidas": {
-        "alto": "75 cm",
-        "ancho": "120 cm",
-        "profundidad": "120 cm"
+      "measures": {
+        "heigth": "75 cm",
+        "width": "120 cm",
+        "deep": "120 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_836152-MLA46293960514_062021-O.webp"
     },
     {
       // "id": "12",
-      "nombre": "Cama Queen Size",
-      "categoria": "Dormitorio",
+      "name": "Cama Queen Size",
+      "category": "Dormitorio",
       "color": "Gris",
-      "medidas": {
-        "alto": "110 cm",
-        "ancho": "160 cm",
-        "profundidad": "200 cm"
+      "measures": {
+        "heigth": "110 cm",
+        "width": "160 cm",
+        "deep": "200 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_969635-MLA70591798795_072023-O.webp"
     },
     {
       // "id": "13",
-      "nombre": "Silla de Escritorio",
-      "categoria": "Oficina",
+      "name": "Silla de Escritorio",
+      "category": "Oficina",
       "color": "Azul",
-      "medidas": {
-        "alto": "90 cm",
-        "ancho": "60 cm",
-        "profundidad": "55 cm"
+      "measures": {
+        "heigth": "90 cm",
+        "width": "60 cm",
+        "deep": "55 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_978467-MLA69502317582_052023-O.webp"
     },
     {
       // "id": "14",
-      "nombre": "Sofá Reclinable",
-      "categoria": "Sala de estar",
+      "name": "Sofá Reclinable",
+      "category": "Sala de estar",
       "color": "Negro",
-      "medidas": {
-        "alto": "95 cm",
-        "ancho": "200 cm",
-        "profundidad": "100 cm"
+      "measures": {
+        "heigth": "95 cm",
+        "width": "200 cm",
+        "deep": "100 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_990639-MLU71044039090_082023-O.webp"
     },
     {
       // "id": "15",
-      "nombre": "Mesa de Centro Ovalada",
-      "categoria": "Sala de estar",
+      "name": "Mesa de Centro Ovalada",
+      "category": "Sala de estar",
       "color": "Madera",
-      "medidas": {
-        "alto": "50 cm",
-        "ancho": "120 cm",
-        "profundidad": "70 cm"
+      "measures": {
+        "heigth": "50 cm",
+        "width": "120 cm",
+        "deep": "70 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_776167-MLA69837709729_062023-O.webp"
     },
     {
       // "id": "16",
-      "nombre": "Cama Infantil",
-      "categoria": "Dormitorio",
+      "name": "Cama Infantil",
+      "category": "Dormitorio",
       "color": "Azul",
-      "medidas": {
-        "alto": "80 cm",
-        "ancho": "90 cm",
-        "profundidad": "180 cm"
+      "measures": {
+        "heigth": "80 cm",
+        "width": "90 cm",
+        "deep": "180 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_761236-MLA70746599881_072023-O.webp"
     },
     {
       // "id": "17",
-      "nombre": "Silla de Comedor con Brazos",
-      "categoria": "Comedor",
+      "name": "Silla de Comedor con Brazos",
+      "category": "Comedor",
       "color": "Rojo",
-      "medidas": {
-        "alto": "90 cm",
-        "ancho": "60 cm",
-        "profundidad": "55 cm"
+      "measures": {
+        "heigth": "90 cm",
+        "width": "60 cm",
+        "deep": "55 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_838267-MLA52150497263_102022-O.webp"
     },
     {
       // "id": "18",
-      "nombre": "Escritorio de Estudio",
-      "categoria": "Oficina",
+      "name": "Escritorio de Estudio",
+      "category": "Oficina",
       "color": "Blanco",
-      "medidas": {
-        "alto": "75 cm",
-        "ancho": "120 cm",
-        "profundidad": "60 cm"
+      "measures": {
+        "heigth": "75 cm",
+        "width": "120 cm",
+        "deep": "60 cm"
       },
       "image": "https://www.megatone.net/images//Articulos/zoom2x/132/MKT0143CTR-1.jpg"
     },
     {
       // "id": "19",
-      "nombre": "Sofá de Tres Plazas",
-      "categoria": "Sala de estar",
+      "name": "Sofá de Tres Plazas",
+      "category": "Sala de estar",
       "color": "Gris",
-      "medidas": {
-        "alto": "80 cm",
-        "ancho": "220 cm",
-        "profundidad": "100 cm"
+      "measures": {
+        "heigth": "80 cm",
+        "width": "220 cm",
+        "deep": "100 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_807117-MLA51739692118_092022-O.webp"
     },
     {
       // "id": "20",
-      "nombre": "Mesa de Comedor de Vidrio",
-      "categoria": "Comedor",
+      "name": "Mesa de Comedor de Vidrio",
+      "category": "Comedor",
       "color": "Transparente",
-      "medidas": {
-        "alto": "75 cm",
-        "ancho": "140 cm",
-        "profundidad": "80 cm"
+      "measures": {
+        "heigth": "75 cm",
+        "width": "140 cm",
+        "deep": "80 cm"
       },
       "image": "https://desillas.com/img/productos/ZSJHHR_1.jpg"
     },
     {
       // "id": "21",
-      "nombre": "Cama Individual para Niños",
-      "categoria": "Dormitorio",
+      "name": "Cama Individual para Niños",
+      "category": "Dormitorio",
       "color": "Azul",
-      "medidas": {
-        "alto": "85 cm",
-        "ancho": "100 cm",
-        "profundidad": "190 cm"
+      "measures": {
+        "heigth": "85 cm",
+        "width": "100 cm",
+        "deep": "190 cm"
       },
       "image": "https://m.media-amazon.com/images/I/8123d78YbPL._AC_UF894,1000_QL80_.jpg"
     },
     {
       // "id": "22",
-      "nombre": "Silla de Comedor de Cuero",
-      "categoria": "Comedor",
+      "name": "Silla de Comedor de Cuero",
+      "category": "Comedor",
       "color": "Negro",
-      "medidas": {
-        "alto": "95 cm",
-        "ancho": "55 cm",
-        "profundidad": "50 cm"
+      "measures": {
+        "heigth": "95 cm",
+        "width": "55 cm",
+        "deep": "50 cm"
       },
       "image": "https://desillas.com/img/productos/PVFOHS_3.jpg"
     },
     {
       // "id": "23",
-      "nombre": "Mesa de Oficina",
-      "categoria": "Oficina",
+      "name": "Mesa de Oficina",
+      "category": "Oficina",
       "color": "Marrón",
-      "medidas": {
-        "alto": "75 cm",
-        "ancho": "140 cm",
-        "profundidad": "70 cm"
+      "measures": {
+        "heigth": "75 cm",
+        "width": "140 cm",
+        "deep": "70 cm"
       },
       "image": "https://http2.mlstatic.com/D_NQ_NP_905930-MLA51918535300_102022-O.webp"
     },
     {
       // "id": "24",
-      "nombre": "Sofá Seccional",
-      "categoria": "Sala de estar",
+      "name": "Sofá Seccional",
+      "category": "Sala de estar",
       "color": "Gris",
-      "medidas": {
-        "alto": "85 cm",
-        "ancho": "260 cm",
-        "profundidad": "160 cm"
+      "measures": {
+        "heigth": "85 cm",
+        "width": "260 cm",
+        "deep": "160 cm"
       },
       "image": "https://www.form.cl/seccional-forma-gris-der.html"
     },
     {
       // "id": "25",
-      "nombre": "Mesa de Centro de Madera",
-      "categoria": "Sala de estar",
+      "name": "Mesa de Centro de Madera",
+      "category": "Sala de estar",
       "color": "Madera",
-      "medidas": {
-        "alto": "40 cm",
-        "ancho": "110 cm",
-        "profundidad": "70 cm"
+      "measures": {
+        "heigth": "40 cm",
+        "width": "110 cm",
+        "deep": "70 cm"
       },
       "image": "https://i.pinimg.com/1200x/64/8b/0e/648b0e6eaee9a8f6c844d167ebe0d5f0.jpg"
     }
