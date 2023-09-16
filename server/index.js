@@ -21,8 +21,7 @@ async function cargarDatos() {
     await sequelize.sync({ force: true });
 
     // Carga los datos en la base de datos
-    await Products.bulkCreate(dataP);
-    const allProducts = await 
+    // await Products.bulkCreate(dataP);
 
     await Category.bulkCreate(dataC);
 
