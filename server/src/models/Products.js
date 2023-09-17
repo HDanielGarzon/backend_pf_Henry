@@ -32,6 +32,23 @@ module.exports = (sequelize) => {
         allowNull: true,
        
       },
+      measures: {
+        type: DataTypes.JSON,
+        allowNull: false,
+        validate: {
+          isValidMeasures(value) {
+            // Verifica si el objeto tiene solo las propiedades height, width y depth
+            if (
+              !value ||
+              typeof value !== "object" ||
+              !("height" in value) ||
+              !("width" in value) ||
+              !("depth" in value)
+            ) {
+              throw new Error("Las medidas deben incluir height, width y depth.");
+            }
+          },
+        },
       // measures: {
       //   type: DataTypes.JSON, 
       //   allowNull: false,
@@ -48,10 +65,6 @@ module.exports = (sequelize) => {
         type: DataTypes.DECIMAL,
         allowNull: true,
       },
-     
-       
-    
-    
     },
     { timestamps: false }
   );

@@ -10,7 +10,8 @@ const muebles=[
         "width": "200 cm",
         "deep": "90 cm"
       },
-      "image": "https://m.media-amazon.com/images/I/619JCc-+eVL._AC_SL1500_.jpg"
+      "image": "https://m.media-amazon.com/images/I/619JCc-+eVL._AC_SL1500_.jpg",
+      "categories":"31ea72e0-2451-48d4-861c-b6ccb59f0ab7"
     },
     {
       // "id": "2",
