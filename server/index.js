@@ -14,6 +14,7 @@ const dataC = require('./src/fillDB/dataCategory');
 const server = require('./src/app');
 const { sequelize } = require('./src/db');
 const PORT = 3001;
+const {createProductsAndRelations} = require('./src/handlers/productsHandlers/suvirDB')
 
 async function cargarDatos() {
   try {
@@ -22,8 +23,10 @@ async function cargarDatos() {
 
     // Carga los datos en la base de datos
     // await Products.bulkCreate(dataP);
-
     await Category.bulkCreate(dataC);
+    // await createProductsAndRelations()
+
+    
 
     console.log('Datos cargados exitosamente en la base de datos.');
 
