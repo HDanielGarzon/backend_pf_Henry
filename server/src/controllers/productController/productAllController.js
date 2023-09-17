@@ -14,20 +14,23 @@ const productAllController = async () => {
   //     });
   //   await productos.setCategory(categoryId)
 
-  const categoryApi = (await axios.get("http://localhost:5001/category")).data;
-  const categoryDb = await Category.bulkCreate(categoryApi);
-  
-  
-  const productApi = (await axios.get("http://localhost:5000/products")).data;
-  const productDb = await Products.bulkCreate(productApi);
+  //________________________________________
 
-  for (const product of productDb) {
-    const categoryId = product.categoryId;
-    const category = await Category.findByPk(categoryId);
-    if (category) {
-      await product.setCategory(category);
-    }
-  }
+//   const categoryApi = (await axios.get("http://localhost:5001/category")).data;
+//   const categoryDb = await Category.bulkCreate(categoryApi);
+  
+  
+//   const productApi = (await axios.get("http://localhost:5000/products")).data;
+//   const productDb = await Products.bulkCreate(productApi);
+
+//   for (const product of productDb) {
+//     const categoryId = product.categoryId;
+//     const category = await Category.findByPk(categoryId);
+//     if (category) {
+//       await product.setCategory(category);
+//     }
+//   }
+//-_____________________________________________
 
   const productos = await Products.findAll({
     include: [{ model: Category, attribute: ["name"] }],
