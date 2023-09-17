@@ -42,10 +42,10 @@ sequelize.models = Object.fromEntries(capsEntries);
 const { Products, Category } = sequelize.models;
 
 // Aca vendrian las relaciones:
-// Products.belongsToMany(Category, { through: "PoductsxCategory" });
-// Category.belongsToMany(Products, { through: "PoductsxCategory" });
-Products.belongsTo(Category, { foreignKey: 'categoryId'});
-Category.hasMany(Products, { foreignKey: 'categoryId' });
+Products.belongsToMany(Category, { through: "PoductsxCategory" });
+Category.belongsToMany(Products, { through: "PoductsxCategory" });
+// Products.belongsTo(Category, { foreignKey: 'categoryId'});
+// Category.hasMany(Products, { foreignKey: 'categoryId' });
 
 
 

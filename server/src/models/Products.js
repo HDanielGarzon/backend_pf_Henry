@@ -22,19 +22,18 @@ module.exports = (sequelize) => {
       //   type: DataTypes.STRING,
       //   allowNull: true,
       // },
-      // color: {
-      //   type: DataTypes.STRING,
-      //   allowNull: false,
-      // },
-     
-     image: {
+      colors: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        allowNull: true,
+      },
+
+      image: {
         type: DataTypes.STRING,
         allowNull: true,
-       
       },
-      measures: {
+      medidas: {
         type: DataTypes.JSON,
-        allowNull: false,
+        allowNull: true,
         validate: {
           isValidMeasures(value) {
             // Verifica si el objeto tiene solo las propiedades height, width y depth
@@ -45,12 +44,15 @@ module.exports = (sequelize) => {
               !("width" in value) ||
               !("depth" in value)
             ) {
-              throw new Error("Las medidas deben incluir height, width y depth.");
+              throw new Error(
+                "Las medidas deben incluir height, width y depth."
+              );
             }
           },
         },
+      },
       // measures: {
-      //   type: DataTypes.JSON, 
+      //   type: DataTypes.JSON,
       //   allowNull: false,
       // },
       description: {
