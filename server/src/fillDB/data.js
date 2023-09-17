@@ -3,7 +3,7 @@ const muebles=[
     {
       // "id": "1",
       "name": "Sofá de Cuero",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Negro",
       "measures": {
         "heigth": "85 cm",
@@ -15,7 +15,7 @@ const muebles=[
     {
       // "id": "2",
       "name": "Mesa de Comedor",
-      "category": "Comedor",
+      "Category": "Comedor",
       "color": "Marrón",
       "measures": {
         "heigth": "75 cm",
@@ -27,7 +27,7 @@ const muebles=[
     {
       // "id": "3",
       "name": "Cama King Size",
-      "category": "Dormitorio",
+      "Category": "Dormitorio",
       "color": "Blanco",
       "measures": {
         "heigth": "120 cm",
@@ -39,7 +39,7 @@ const muebles=[
     {
       // "id": "4",
       "name": "Silla de Oficina",
-      "category": "Oficina",
+      "Category": "Oficina",
       "color": "Gris",
       "measures": {
         "heigth": "100 cm",
@@ -51,7 +51,7 @@ const muebles=[
     {
       // "id": "5",
       "name": "Sofá Chesterfield",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Azul",
       "measures": {
         "heigth": "80 cm",
@@ -63,7 +63,7 @@ const muebles=[
     {
       // "id": "6",
       "name": "Mesa de Centro",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Blanco",
       "measures": {
         "heigth": "45 cm",
@@ -75,7 +75,7 @@ const muebles=[
     {
       // "id": "7",
       "name": "Cama Individual",
-      "category": "Dormitorio",
+      "Category": "Dormitorio",
       "color": "Rosa",
       "measures": {
         "heigth": "100 cm",
@@ -87,7 +87,7 @@ const muebles=[
     {
       // "id": "8",
       "name": "Silla de Comedor",
-      "category": "Comedor",
+      "Category": "Comedor",
       "color": "Negro",
       "measures": {
         "heigth": "85 cm",
@@ -99,7 +99,7 @@ const muebles=[
     {
       // "id": "9",
       "name": "Escritorio de Oficina",
-      "category": "Oficina",
+      "Category": "Oficina",
       "color": "Marrón",
       "measures": {
         "heigth": "75 cm",
@@ -111,7 +111,7 @@ const muebles=[
     {
       // "id": "10",
       "name": "Sofá Modular",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Gris",
       "measures": {
         "heigth": "75 cm",
@@ -123,7 +123,7 @@ const muebles=[
     {
       // "id": "11",
       "name": "Mesa de Comedor Redonda",
-      "category": "Comedor",
+      "Category": "Comedor",
       "color": "Blanco",
       "measures": {
         "heigth": "75 cm",
@@ -135,7 +135,7 @@ const muebles=[
     {
       // "id": "12",
       "name": "Cama Queen Size",
-      "category": "Dormitorio",
+      "Category": "Dormitorio",
       "color": "Gris",
       "measures": {
         "heigth": "110 cm",
@@ -147,7 +147,7 @@ const muebles=[
     {
       // "id": "13",
       "name": "Silla de Escritorio",
-      "category": "Oficina",
+      "Category": "Oficina",
       "color": "Azul",
       "measures": {
         "heigth": "90 cm",
@@ -159,7 +159,7 @@ const muebles=[
     {
       // "id": "14",
       "name": "Sofá Reclinable",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Negro",
       "measures": {
         "heigth": "95 cm",
@@ -171,7 +171,7 @@ const muebles=[
     {
       // "id": "15",
       "name": "Mesa de Centro Ovalada",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Madera",
       "measures": {
         "heigth": "50 cm",
@@ -183,7 +183,7 @@ const muebles=[
     {
       // "id": "16",
       "name": "Cama Infantil",
-      "category": "Dormitorio",
+      "Category": "Dormitorio",
       "color": "Azul",
       "measures": {
         "heigth": "80 cm",
@@ -195,7 +195,7 @@ const muebles=[
     {
       // "id": "17",
       "name": "Silla de Comedor con Brazos",
-      "category": "Comedor",
+      "Category": "Comedor",
       "color": "Rojo",
       "measures": {
         "heigth": "90 cm",
@@ -207,7 +207,7 @@ const muebles=[
     {
       // "id": "18",
       "name": "Escritorio de Estudio",
-      "category": "Oficina",
+      "Category": "Oficina",
       "color": "Blanco",
       "measures": {
         "heigth": "75 cm",
@@ -219,7 +219,7 @@ const muebles=[
     {
       // "id": "19",
       "name": "Sofá de Tres Plazas",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Gris",
       "measures": {
         "heigth": "80 cm",
@@ -231,7 +231,7 @@ const muebles=[
     {
       // "id": "20",
       "name": "Mesa de Comedor de Vidrio",
-      "category": "Comedor",
+      "Category": "Comedor",
       "color": "Transparente",
       "measures": {
         "heigth": "75 cm",
@@ -243,7 +243,7 @@ const muebles=[
     {
       // "id": "21",
       "name": "Cama Individual para Niños",
-      "category": "Dormitorio",
+      "Category": "Dormitorio",
       "color": "Azul",
       "measures": {
         "heigth": "85 cm",
@@ -255,7 +255,7 @@ const muebles=[
     {
       // "id": "22",
       "name": "Silla de Comedor de Cuero",
-      "category": "Comedor",
+      "Category": "Comedor",
       "color": "Negro",
       "measures": {
         "heigth": "95 cm",
@@ -267,7 +267,7 @@ const muebles=[
     {
       // "id": "23",
       "name": "Mesa de Oficina",
-      "category": "Oficina",
+      "Category": "Oficina",
       "color": "Marrón",
       "measures": {
         "heigth": "75 cm",
@@ -279,7 +279,7 @@ const muebles=[
     {
       // "id": "24",
       "name": "Sofá Seccional",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Gris",
       "measures": {
         "heigth": "85 cm",
@@ -291,7 +291,7 @@ const muebles=[
     {
       // "id": "25",
       "name": "Mesa de Centro de Madera",
-      "category": "Sala de estar",
+      "Category": "Sala de estar",
       "color": "Madera",
       "measures": {
         "heigth": "40 cm",
