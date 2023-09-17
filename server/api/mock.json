@@ -11,10 +11,10 @@
           "count": 95
         },
         "colors": ["marrón", "negro", "gris"],
-        "medidas": {
-          "ancho": "210 cm",
-          "alto": "90 cm",
-          "profundidad": "100 cm"
+        "measures": {
+          "width": "210 cm",
+          "height": "90 cm",
+          "deep": "100 cm"
         }
       },
       {
@@ -28,10 +28,10 @@
             "count": 72
           },
           "colors": ["transparente", "negro"],
-          "medidas": {
-            "ancho": "90 cm",
-            "alto": "45 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "90 cm",
+            "height": "45 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -45,10 +45,10 @@
             "count": 55
           },
           "colors": ["negro", "marrón"],
-          "medidas": {
-            "ancho": "80 cm",
-            "alto": "100 cm",
-            "profundidad": "90 cm"
+          "measures": {
+            "width": "80 cm",
+            "height": "100 cm",
+            "deep": "90 cm"
           }
         },
         {
@@ -62,10 +62,10 @@
             "count": 45
           },
           "colors": ["blanco", "negro"],
-          "medidas": {
-            "ancho": "60 cm",
-            "alto": "80 cm",
-            "profundidad": "20 cm"
+          "measures": {
+            "width": "60 cm",
+            "height": "80 cm",
+            "deep": "20 cm"
           }
         },
         {
@@ -79,8 +79,8 @@
             "count": 62
           },
           "colors": ["negro", "plateado"],
-          "medidas": {
-            "alto": "160 cm"
+          "measures": {
+            "height": "160 cm"
           }
         },
         {
@@ -94,10 +94,10 @@
             "count": 39
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "ancho": "100 cm",
-            "alto": "45 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "100 cm",
+            "height": "45 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -111,10 +111,10 @@
             "count": 51
           },
           "colors": ["gris"],
-          "medidas": {
-            "ancho": "260 cm",
-            "alto": "80 cm",
-            "profundidad": "160 cm"
+          "measures": {
+            "width": "260 cm",
+            "height": "80 cm",
+            "deep": "160 cm"
           }
         },
         {
@@ -128,10 +128,10 @@
             "count": 60
           },
           "colors": ["blanco", "madera natural"],
-          "medidas": {
-            "ancho": "80 cm",
-            "alto": "45 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "80 cm",
+            "height": "45 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -145,10 +145,10 @@
             "count": 56
           },
           "colors": ["marrón", "negro"],
-          "medidas": {
-            "ancho": "180 cm",
-            "alto": "80 cm",
-            "profundidad": "90 cm"
+          "measures": {
+            "width": "180 cm",
+            "height": "80 cm",
+            "deep": "90 cm"
           }
         },
         {
@@ -162,10 +162,10 @@
             "count": 58
           },
           "colors": ["blanco", "negro"],
-          "medidas": {
-            "ancho": "110 cm",
-            "alto": "45 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "110 cm",
+            "height": "45 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -179,10 +179,10 @@
             "count": 53
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "ancho": "200 cm",
-            "alto": "120 cm",
-            "profundidad": "220 cm"
+          "measures": {
+            "width": "200 cm",
+            "height": "120 cm",
+            "deep": "220 cm"
           }
         },
         {
@@ -196,10 +196,10 @@
             "count": 42
           },
           "colors": ["marrón", "blanco"],
-          "medidas": {
-            "ancho": "120 cm",
-            "alto": "160 cm",
-            "profundidad": "50 cm"
+          "measures": {
+            "width": "120 cm",
+            "height": "160 cm",
+            "deep": "50 cm"
           }
         },
         {
@@ -213,10 +213,10 @@
             "count": 59
           },
           "colors": ["blanco", "marrón"],
-          "medidas": {
-            "ancho": "180 cm",
-            "alto": "200 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "180 cm",
+            "height": "200 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -230,10 +230,10 @@
             "count": 37
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "ancho": "45 cm",
-            "alto": "60 cm",
-            "profundidad": "40 cm"
+          "measures": {
+            "width": "45 cm",
+            "height": "60 cm",
+            "deep": "40 cm"
           }
         },
         {
@@ -247,8 +247,8 @@
             "count": 64
           },
           "colors": ["negro", "plateado"],
-          "medidas": {
-            "alto": "150 cm"
+          "measures": {
+            "height": "150 cm"
           }
         },
         {
@@ -262,10 +262,10 @@
             "count": 48
           },
           "colors": ["gris", "azul"],
-          "medidas": {
-            "ancho": "70 cm",
-            "alto": "90 cm",
-            "profundidad": "80 cm"
+          "measures": {
+            "width": "70 cm",
+            "height": "90 cm",
+            "deep": "80 cm"
           }
         },
         {
@@ -279,9 +279,9 @@
             "count": 68
           },
           "colors": ["gris oscuro", "beige"],
-          "medidas": {
-            "ancho": "140 cm",
-            "alto": "240 cm"
+          "measures": {
+            "width": "140 cm",
+            "height": "240 cm"
           }
         },
         {
@@ -295,9 +295,9 @@
             "count": 57
           },
           "colors": ["negro", "blanco"],
-          "medidas": {
-            "ancho": "50 cm",
-            "alto": "150 cm"
+          "measures": {
+            "width": "50 cm",
+            "height": "150 cm"
           }
         },
         {
@@ -311,10 +311,10 @@
             "count": 55
           },
           "colors": ["negro", "marrón"],
-          "medidas": {
-            "ancho": "100 cm",
-            "alto": "50 cm",
-            "profundidad": "40 cm"
+          "measures": {
+            "width": "100 cm",
+            "height": "50 cm",
+            "deep": "40 cm"
           }
         },
         {
@@ -328,10 +328,10 @@
             "count": 48
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "ancho": "40 cm",
-            "alto": "60 cm",
-            "profundidad": "30 cm"
+          "measures": {
+            "width": "40 cm",
+            "height": "60 cm",
+            "deep": "30 cm"
           }
         },
         {
@@ -345,10 +345,10 @@
             "count": 73
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "ancho": "120 cm",
-            "alto": "75 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "120 cm",
+            "height": "75 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -362,10 +362,10 @@
             "count": 66
           },
           "colors": ["negro", "gris"],
-          "medidas": {
-            "ancho": "60 cm",
-            "alto": "100 cm",
-            "profundidad": "50 cm"
+          "measures": {
+            "width": "60 cm",
+            "height": "100 cm",
+            "deep": "50 cm"
           }
         },
         {
@@ -379,8 +379,8 @@
             "count": 61
           },
           "colors": ["negro", "blanco"],
-          "medidas": {
-            "alto": "40 cm"
+          "measures": {
+            "height": "40 cm"
           }
         },
         {
@@ -394,10 +394,10 @@
             "count": 45
           },
           "colors": ["madera natural", "negro"],
-          "medidas": {
-            "ancho": "80 cm",
-            "alto": "100 cm",
-            "profundidad": "20 cm"
+          "measures": {
+            "width": "80 cm",
+            "height": "100 cm",
+            "deep": "20 cm"
           }
         },
         {
@@ -411,10 +411,10 @@
             "count": 60
           },
           "colors": ["madera natural", "negro"],
-          "medidas": {
-            "ancho": "120 cm",
-            "alto": "75 cm",
-            "profundidad": "120 cm"
+          "measures": {
+            "width": "120 cm",
+            "height": "75 cm",
+            "deep": "120 cm"
           }
         },
         {
@@ -428,10 +428,10 @@
             "count": 50
           },
           "colors": ["negro", "gris"],
-          "medidas": {
-            "ancho": "60 cm",
-            "alto": "100 cm",
-            "profundidad": "50 cm"
+          "measures": {
+            "width": "60 cm",
+            "height": "100 cm",
+            "deep": "50 cm"
           }
         },
         {
@@ -445,10 +445,10 @@
             "count": 68
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "ancho": "80 cm",
-            "alto": "75 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "80 cm",
+            "height": "75 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -462,10 +462,10 @@
             "count": 51
           },
           "colors": ["negro", "blanco"],
-          "medidas": {
-            "ancho": "120 cm",
-            "alto": "75 cm",
-            "profundidad": "60 cm"
+          "measures": {
+            "width": "120 cm",
+            "height": "75 cm",
+            "deep": "60 cm"
           }
         },
         {
@@ -479,10 +479,10 @@
             "count": 39
           },
           "colors": ["madera natural", "negro"],
-          "medidas": {
-            "ancho": "100 cm",
-            "alto": "150 cm",
-            "profundidad": "20 cm"
+          "measures": {
+            "width": "100 cm",
+            "height": "150 cm",
+            "deep": "20 cm"
           }
         },
         {
@@ -496,10 +496,10 @@
             "count": 49
           },
           "colors": ["negro", "blanco"],
-          "medidas": {
-            "ancho": "100 cm",
-            "alto": "75 cm",
-            "profundidad": "50 cm"
+          "measures": {
+            "width": "100 cm",
+            "height": "75 cm",
+            "deep": "50 cm"
           }
         },
         {
@@ -513,9 +513,9 @@
             "count": 84
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "diámetro": "150 cm",
-            "alto": "75 cm"
+          "measures": {
+            "diameter": "150 cm",
+            "height": "75 cm"
           }
         },
         {
@@ -529,10 +529,10 @@
             "count": 92
           },
           "colors": ["gris", "beige"],
-          "medidas": {
-            "ancho": "50 cm",
-            "alto": "100 cm",
-            "profundidad": "50 cm"
+          "measures": {
+            "width": "50 cm",
+            "height": "100 cm",
+            "deep": "50 cm"
           }
         },
         {
@@ -546,10 +546,10 @@
             "count": 76
           },
           "colors": ["blanco", "negro"],
-          "medidas": {
-            "ancho": "160 cm",
-            "alto": "90 cm",
-            "profundidad": "40 cm"
+          "measures": {
+            "width": "160 cm",
+            "height": "90 cm",
+            "deep": "40 cm"
           }
         },
         {
@@ -563,9 +563,9 @@
             "count": 68
           },
           "colors": ["cristal"],
-          "medidas": {
-            "diámetro": "40 cm",
-            "alto": "50 cm"
+          "measures": {
+            "diameter": "40 cm",
+            "height": "50 cm"
           }
         },
         {
@@ -579,9 +579,9 @@
             "count": 61
           },
           "colors": ["vidrio transparente"],
-          "medidas": {
-            "diámetro": "120 cm",
-            "alto": "75 cm"
+          "measures": {
+            "diameter": "120 cm",
+            "height": "75 cm"
           }
         },
         {
@@ -595,10 +595,10 @@
             "count": 55
           },
           "colors": ["negro", "marrón"],
-          "medidas": {
-            "ancho": "45 cm",
-            "alto": "100 cm",
-            "profundidad": "50 cm"
+          "measures": {
+            "width": "45 cm",
+            "height": "100 cm",
+            "deep": "50 cm"
           }
         },
         {
@@ -612,10 +612,10 @@
             "count": 49
           },
           "colors": ["madera natural", "blanco"],
-          "medidas": {
-            "ancho": "160 cm (extensible a 220 cm)",
-            "alto": "75 cm",
-            "profundidad": "90 cm"
+          "measures": {
+            "width": "160 cm (extensible a 220 cm)",
+            "height": "75 cm",
+            "deep": "90 cm"
           }
         },
         {
@@ -629,10 +629,10 @@
             "count": 62
           },
           "colors": ["gris claro", "beige"],
-          "medidas": {
-            "ancho": "45 cm",
-            "alto": "95 cm",
-            "profundidad": "50 cm"
+          "measures": {
+            "width": "45 cm",
+            "height": "95 cm",
+            "deep": "50 cm"
           }
         },
         {
@@ -646,9 +646,9 @@
             "count": 57
           },
           "colors": ["mármol blanco", "mármol negro"],
-          "medidas": {
-            "diámetro": "120 cm",
-            "alto": "75 cm"
+          "measures": {
+            "diameter": "120 cm",
+            "height": "75 cm"
           }
         },
         {
@@ -662,10 +662,10 @@
             "count": 51
           },
           "colors": ["negro", "madera natural"],
-          "medidas": {
-            "ancho": "120 cm",
-            "alto": "90 cm",
-            "profundidad": "40 cm"
+          "measures": {
+            "width": "120 cm",
+            "height": "90 cm",
+            "deep": "40 cm"
           }
         },
         {
@@ -679,8 +679,8 @@
             "count": 84
           },
           "colors": ["azul", "rojo", "verde", "gris"],
-          "medidas": {
-            "ancho": "45 cm",
+          "measures": {
+            "width": "45 cm",
             "largo": "45 cm"
           }
         },
@@ -695,9 +695,9 @@
             "count": 92
           },
           "colors": ["madera natural", "blanco", "negro"],
-          "medidas": {
-            "ancho": "60 cm",
-            "alto": "80 cm"
+          "measures": {
+            "width": "60 cm",
+            "height": "80 cm"
           }
         },
         {
@@ -711,8 +711,8 @@
             "count": 76
           },
           "colors": ["blanco", "azul", "gris"],
-          "medidas": {
-            "alto": "30 cm"
+          "measures": {
+            "height": "30 cm"
           }
         },
         {
@@ -726,8 +726,8 @@
             "count": 68
           },
           "colors": ["negro", "blanco"],
-          "medidas": {
-            "diámetro": "30 cm"
+          "measures": {
+            "diameter": "30 cm"
           }
         },
         {
@@ -741,9 +741,9 @@
             "count": 61
           },
           "colors": ["cristal"],
-          "medidas": {
-            "diámetro": "15 cm",
-            "alto": "25 cm"
+          "measures": {
+            "diameter": "15 cm",
+            "height": "25 cm"
           }
         },
         {
@@ -757,8 +757,8 @@
             "count": 55
           },
           "colors": ["gris", "blanco", "azul"],
-          "medidas": {
-            "ancho": "130 cm",
+          "measures": {
+            "width": "130 cm",
             "largo": "150 cm"
           }
         },
@@ -773,9 +773,9 @@
             "count": 62
           },
           "colors": ["dorado"],
-          "medidas": {
-            "ancho": "15 cm",
-            "alto": "40 cm"
+          "measures": {
+            "width": "15 cm",
+            "height": "40 cm"
           }
         },
         {
@@ -789,8 +789,8 @@
             "count": 57
           },
           "colors": ["multicolor"],
-          "medidas": {
-            "ancho": "160 cm",
+          "measures": {
+            "width": "160 cm",
             "largo": "230 cm"
           }
         },
@@ -805,8 +805,8 @@
             "count": 68
           },
           "colors": ["blanco", "azul", "gris"],
-          "medidas": {
-            "ancho": "70 cm",
+          "measures": {
+            "width": "70 cm",
             "largo": "140 cm"
           }
         },
@@ -821,9 +821,9 @@
             "count": 61
           },
           "colors": ["cristal"],
-          "medidas": {
-            "diámetro": "8 cm",
-            "alto": "10 cm"
+          "measures": {
+            "diameter": "8 cm",
+            "height": "10 cm"
           }
         }
                       
