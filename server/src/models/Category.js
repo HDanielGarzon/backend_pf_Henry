@@ -5,14 +5,18 @@ module.exports = (sequelize) => {
     "Category",
     {
       id: {
-        type: DataTypes.UUID,
+        type: DataTypes.INTEGER,
         primaryKey: true,
-        defaultValue: DataTypes.UUIDV4,
+        autoIncrement: true,
       },
       name: {
         type: DataTypes.STRING,
         allowNull: false,
         unique:true,
+      },
+      image: {
+        type: DataTypes.STRING,
+        allowNull: false,
       },
     },
     { timestamps: false }

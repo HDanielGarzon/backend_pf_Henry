@@ -1,0 +1,832 @@
+{
+  "products": [
+    {
+        "name": "Juego de Sofás de Cuero Marrón",
+        "price": 1899.99,
+        "description": "Un juego de sofás de cuero genuino en color marrón para tu sala de estar.",
+        "category": "salas",
+        "image": "https://thebluehouse.com.co/cdn/shop/products/Sofa-en-cuero-Jansen-L-e2t.jpg?v=1611758005",
+        "rating": {
+          "rate": 4.7,
+          "count": 95
+        },
+        "colors": ["marrón", "negro", "gris"],
+        "medidas": {
+          "ancho": "210 cm",
+          "alto": "90 cm",
+          "profundidad": "100 cm"
+        }
+      },
+      {
+          "name": "Mesa de Centro de Vidrio Templado",
+          "price": 349.99,
+          "description": "Una mesa de centro elegante con tapa de vidrio templado y base de metal.",
+          "category": "salas",
+          "image": "https://m.media-amazon.com/images/I/91LJJjTf7GL._AC_SL1500_.jpg",
+          "rating": {
+            "rate": 4.5,
+            "count": 72
+          },
+          "colors": ["transparente", "negro"],
+          "medidas": {
+            "ancho": "90 cm",
+            "alto": "45 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Sillón Reclinable de Cuero Negro",
+          "price": 799.99,
+          "description": "Un cómodo sillón reclinable de cuero negro para relajarte en tu sala.",
+          "category": "salas",
+          "image": "https://m.media-amazon.com/images/I/71WeV3nuyKL._AC_SL1500_.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 55
+          },
+          "colors": ["negro", "marrón"],
+          "medidas": {
+            "ancho": "80 cm",
+            "alto": "100 cm",
+            "profundidad": "90 cm"
+          }
+        },
+        {
+          "name": "Estante de Pared Moderno",
+          "price": 89.99,
+          "description": "Un estante de pared moderno para mostrar tus decoraciones en la sala.",
+          "category": "salas",
+          "image": "https://i.pinimg.com/1200x/11/cc/97/11cc973f5543d96a4e16f2e86c5aa0ef.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 45
+          },
+          "colors": ["blanco", "negro"],
+          "medidas": {
+            "ancho": "60 cm",
+            "alto": "80 cm",
+            "profundidad": "20 cm"
+          }
+        },
+        {
+          "name": "Lámpara de Pie de Estilo Industrial",
+          "price": 129.99,
+          "description": "Una lámpara de pie de estilo industrial con diseño único para iluminar tu sala de estar.",
+          "category": "salas",
+          "image": "https://m.media-amazon.com/images/I/61O5dc3Qy7L._AC_UF894,1000_QL80_.jpg",
+          "rating": {
+            "rate": 4.4,
+            "count": 62
+          },
+          "colors": ["negro", "plateado"],
+          "medidas": {
+            "alto": "160 cm"
+          }
+        },
+        {
+          "name": "Mesa de Centro de Madera Maciza",
+          "price": 249.99,
+          "description": "Una mesa de centro de madera maciza de alta calidad para complementar tu sala de estar.",
+          "category": "salas",
+          "image": "https://ekstromfurniture.com/wp-content/uploads/2021/07/1625937664901.jpeg",
+          "rating": {
+            "rate": 4.6,
+            "count": 39
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "ancho": "100 cm",
+            "alto": "45 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Sofá Seccional de Tela Gris",
+          "price": 1199.99,
+          "description": "Un sofá seccional de tela en elegante color gris para tu sala de estar moderna.",
+          "category": "salas",
+          "image": "https://m.media-amazon.com/images/I/81WwsTsArlL._AC_SL1500_.jpg",
+          "rating": {
+            "rate": 4.7,
+            "count": 51
+          },
+          "colors": ["gris"],
+          "medidas": {
+            "ancho": "260 cm",
+            "alto": "80 cm",
+            "profundidad": "160 cm"
+          }
+        },
+        {
+          "name": "Mesa de Centro de Estilo Nórdico",
+          "price": 179.99,
+          "description": "Una mesa de centro de estilo nórdico con patas de madera para dar un toque elegante a tu sala de estar.",
+          "category": "salas",
+          "image": "https://xikara.net/wp-content/uploads/2021/07/mesa-elevable-estilo-nordico.jpg",
+          "rating": {
+            "rate": 4.5,
+            "count": 60
+          },
+          "colors": ["blanco", "madera natural"],
+          "medidas": {
+            "ancho": "80 cm",
+            "alto": "45 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Sofá de Dos Plazas de Cuero",
+          "price": 999.99,
+          "description": "Un sofá de dos plazas de cuero genuino para un espacio acogedor en tu sala.",
+          "category": "salas",
+          "image": "https://wunderhome.eu/wordpress/wp-content/uploads/2021/03/sofa-cuero-henry-2-plazas-maisons-du-monde-02.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 56
+          },
+          "colors": ["marrón", "negro"],
+          "medidas": {
+            "ancho": "180 cm",
+            "alto": "80 cm",
+            "profundidad": "90 cm"
+          }
+        },
+        {
+          "name": "Mesa de Centro con Almacenamiento",
+          "price": 349.99,
+          "description": "Una mesa de centro con espacio de almacenamiento para revistas y controles remotos en tu sala.",
+          "category": "salas",
+          "image": "https://m.media-amazon.com/images/I/81Cm1P+UjyL._AC_SL1500_.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 58
+          },
+          "colors": ["blanco", "negro"],
+          "medidas": {
+            "ancho": "110 cm",
+            "alto": "45 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Cama King Size de Madera con Cabecero Tallado",
+          "price": 1899.99,
+          "description": "Una cama king size de madera maciza con un cabecero tallado a mano para un dormitorio lujoso.",
+          "category": "dormitorio",
+          "image": "https://www.revistainteriores.es/uploads/s1/19/74/66/7/portada-cabeceros.jpeg",
+          "rating": {
+            "rate": 4.7,
+            "count": 53
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "ancho": "200 cm",
+            "alto": "120 cm",
+            "profundidad": "220 cm"
+          }
+        },
+        {
+          "name": "Juego de Cómoda y Espejo de Estilo Vintage",
+          "price": 1099.99,
+          "description": "Un juego de cómoda y espejo de estilo vintage para tu dormitorio con mucho encanto.",
+          "category": "dormitorio",
+          "image": "https://www.viadurini.es/data/prod/img/cassettiera-camera-in-legno-intarsiato-e-specchio-made-in-italy-cambrige-4.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 42
+          },
+          "colors": ["marrón", "blanco"],
+          "medidas": {
+            "ancho": "120 cm",
+            "alto": "160 cm",
+            "profundidad": "50 cm"
+          }
+        },
+        {
+          "name": "Armario de Puertas Corredizas",
+          "price": 999.99,
+          "description": "Un armario espacioso con puertas corredizas y compartimentos para organizar tu ropa en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://idehabita.com/wp-content/uploads/2023/04/AV012-scaled.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 59
+          },
+          "colors": ["blanco", "marrón"],
+          "medidas": {
+            "ancho": "180 cm",
+            "alto": "200 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Mesa de Noche de Madera con Cajón",
+          "price": 149.99,
+          "description": "Una mesa de noche de madera con un cajón para tener tus objetos esenciales a mano en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://www.3house.com.co/wp-content/uploads/2020/06/3-house-mesa-de-noche-palermo-madera-dormitorio-004.jpg",
+          "rating": {
+            "rate": 4.5,
+            "count": 37
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "ancho": "45 cm",
+            "alto": "60 cm",
+            "profundidad": "40 cm"
+          }
+        },
+        {
+          "name": "Lámpara de Pie de Lectura",
+          "price": 79.99,
+          "description": "Una lámpara de pie de lectura con luz ajustable para disfrutar de un buen libro en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://i0.wp.com/m.media-amazon.com/images/I/61GqKIz041L._AC_SL1000_.jpg?ssl=1",
+          "rating": {
+            "rate": 4.4,
+            "count": 64
+          },
+          "colors": ["negro", "plateado"],
+          "medidas": {
+            "alto": "150 cm"
+          }
+        },
+        {
+          "name": "Silla Tapizada para Rincón de Descanso",
+          "price": 249.99,
+          "description": "Una silla tapizada cómoda y elegante para tu rincón de descanso en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://blog.rosen.cl/hs-fs/hubfs/23%20(1).jpg?width=1000&name=23%20(1).jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 48
+          },
+          "colors": ["gris", "azul"],
+          "medidas": {
+            "ancho": "70 cm",
+            "alto": "90 cm",
+            "profundidad": "80 cm"
+          }
+        },
+        {
+          "name": "Cortinas Opacas para Dormitorio",
+          "price": 39.99,
+          "description": "Cortinas opacas de alta calidad para bloquear la luz y garantizar un sueño reparador en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://m.media-amazon.com/images/I/7145DFGxZqS._AC_UF894,1000_QL80_.jpg",
+          "rating": {
+            "rate": 4.3,
+            "count": 68
+          },
+          "colors": ["gris oscuro", "beige"],
+          "medidas": {
+            "ancho": "140 cm",
+            "alto": "240 cm"
+          }
+        },
+        {
+          "name": "Espejo de Pie de Cuerpo Entero",
+          "price": 199.99,
+          "description": "Un espejo de pie de cuerpo entero para vestirte con estilo en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/espejo-madera-de-pie-urban-outfitters-1594636658.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 57
+          },
+          "colors": ["negro", "blanco"],
+          "medidas": {
+            "ancho": "50 cm",
+            "alto": "150 cm"
+          }
+        },
+        {
+          "name": "Banco de Almacenamiento de Cuero",
+          "price": 169.99,
+          "description": "Un banco de almacenamiento de cuero con espacio para guardar ropa en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://cocochairs.com/cdn/shop/products/5f4fc4b37c3d9faf51a4c7aadaca17f5.jpg?v=1682519711",
+          "rating": {
+            "rate": 4.5,
+            "count": 55
+          },
+          "colors": ["negro", "marrón"],
+          "medidas": {
+            "ancho": "100 cm",
+            "alto": "50 cm",
+            "profundidad": "40 cm"
+          }
+        },
+        {
+          "name": "Mesa de Noche con Estantes",
+          "price": 129.99,
+          "description": "Una mesa de noche con estantes para mantener tus libros cerca de la cama en el dormitorio.",
+          "category": "dormitorio",
+          "image": "https://i.blogs.es/2fff01/vasagle/1366_2000.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 48
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "ancho": "40 cm",
+            "alto": "60 cm",
+            "profundidad": "30 cm"
+          }
+        },
+        {
+          "name": "Escritorio de Estudio de Madera",
+          "price": 249.99,
+          "description": "Un escritorio de estudio de madera con amplio espacio de trabajo y cajones para organizar tus materiales.",
+          "category": "estudios",
+          "image": "https://i.pinimg.com/originals/f7/ca/52/f7ca52a3002207bf1b0f42028e38a5a0.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 73
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "ancho": "120 cm",
+            "alto": "75 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Silla Ergonómica de Oficina",
+          "price": 159.99,
+          "description": "Una silla ergonómica de oficina diseñada para brindar comodidad durante largas horas de estudio o trabajo.",
+          "category": "estudios",
+          "image": "https://www.brico-valera.com/public/media/productos/aosom/cache/9/2/921-475-detail.jpg",
+          "rating": {
+            "rate": 4.7,
+            "count": 66
+          },
+          "colors": ["negro", "gris"],
+          "medidas": {
+            "ancho": "60 cm",
+            "alto": "100 cm",
+            "profundidad": "50 cm"
+          }
+        },
+        {
+          "name": "Lámpara de Escritorio LED",
+          "price": 29.99,
+          "description": "Una lámpara de escritorio LED ajustable para iluminar tu área de estudio con luz brillante y suave.",
+          "category": "estudios",
+          "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/05/lampara-led-escritorio-sunmeiyi-2325133.jpg?tf=3840x",
+          "rating": {
+            "rate": 4.8,
+            "count": 61
+          },
+          "colors": ["negro", "blanco"],
+          "medidas": {
+            "alto": "40 cm"
+          }
+        },
+        {
+          "name": "Estante de Pared de Estudio",
+          "price": 89.99,
+          "description": "Un estante de pared de estudio con espacio para organizar tus libros y suministros.",
+          "category": "estudios",
+          "image": "https://m.media-amazon.com/images/I/51cRIek0P3L._AC_UF894,1000_QL80_.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 45
+          },
+          "colors": ["madera natural", "negro"],
+          "medidas": {
+            "ancho": "80 cm",
+            "alto": "100 cm",
+            "profundidad": "20 cm"
+          }
+        },
+        {
+          "name": "Escritorio de Esquina con Estantes",
+          "price": 349.99,
+          "description": "Un escritorio de esquina con estantes integrados para aprovechar al máximo el espacio de tu estudio.",
+          "category": "estudios",
+          "image": "https://media.adeo.com/marketplace/MKP/84789007/ca1efe41c918687b88c989e8fe4ff0e1.jpeg?width=3000&height=3000&format=jpg&quality=80&fit=bounds",
+          "rating": {
+            "rate": 4.5,
+            "count": 60
+          },
+          "colors": ["madera natural", "negro"],
+          "medidas": {
+            "ancho": "120 cm",
+            "alto": "75 cm",
+            "profundidad": "120 cm"
+          }
+        },
+        {
+          "name": "Silla Giratoria de Estudio",
+          "price": 129.99,
+          "description": "Una silla giratoria de estudio con soporte lumbar para una postura cómoda mientras estudias.",
+          "category": "estudios",
+          "image": "https://www.brico-valera.com/public/media/productos/aosom/cache/9/2/921-599LG-detail.jpg",
+          "rating": {
+            "rate": 4.7,
+            "count": 50
+          },
+          "colors": ["negro", "gris"],
+          "medidas": {
+            "ancho": "60 cm",
+            "alto": "100 cm",
+            "profundidad": "50 cm"
+          }
+        },
+        {
+          "name": "Mesa de Dibujo Ajustable",
+          "price": 199.99,
+          "description": "Una mesa de dibujo ajustable con ángulo inclinable para artistas y diseñadores en el estudio.",
+          "category": "estudios",
+          "image": "https://s03.s3c.es/imag/_v0/1200x800/f/d/f/Las-mejores-mesas-de-dibujo.jpg",
+          "rating": {
+            "rate": 4.4,
+            "count": 68
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "ancho": "80 cm",
+            "alto": "75 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Mesa de Estudio con Almacenamiento",
+          "price": 179.99,
+          "description": "Una mesa de estudio con espacio de almacenamiento para mantener tus documentos organizados.",
+          "category": "estudios",
+          "image": "https://www.factorydelmuebleutrera.com/product_images/main_image/8632-ESCRITORIO.jpg",
+          "rating": {
+            "rate": 4.7,
+            "count": 51
+          },
+          "colors": ["negro", "blanco"],
+          "medidas": {
+            "ancho": "120 cm",
+            "alto": "75 cm",
+            "profundidad": "60 cm"
+          }
+        },
+        {
+          "name": "Librero de Pared Moderno",
+          "price": 149.99,
+          "description": "Un librero de pared moderno con estantes flotantes para mostrar tus libros y decoraciones en el estudio.",
+          "category": "estudios",
+          "image": "https://i.pinimg.com/originals/9e/82/82/9e828283f27d92328d5f9d6e4d389a60.jpg",
+          "rating": {
+            "rate": 4.5,
+            "count": 39
+          },
+          "colors": ["madera natural", "negro"],
+          "medidas": {
+            "ancho": "100 cm",
+            "alto": "150 cm",
+            "profundidad": "20 cm"
+          }
+        },
+        {
+          "name": "Mesa de Estudio con Soporte para Computadora",
+          "price": 129.99,
+          "description": "Una mesa de estudio con un soporte específico para tu computadora en el estudio.",
+          "category": "estudios",
+          "image": "https://m.media-amazon.com/images/I/81x73-1MxIL.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 49
+          },
+          "colors": ["negro", "blanco"],
+          "medidas": {
+            "ancho": "100 cm",
+            "alto": "75 cm",
+            "profundidad": "50 cm"
+          }
+        },
+        {
+          "name": "Mesa de Comedor de Madera Maciza",
+          "price": 799.99,
+          "description": "Una mesa de comedor de madera maciza con capacidad para 6 personas, ideal para reuniones familiares.",
+          "category": "comedor",
+          "image": "https://purocuero.com.co/wp-content/uploads/2021/10/mesa-origins-4.jpeg",
+          "rating": {
+            "rate": 4.7,
+            "count": 84
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "diámetro": "150 cm",
+            "alto": "75 cm"
+          }
+        },
+        {
+          "name": "Sillas de Comedor Tapizadas (Juego de 4)",
+          "price": 349.99,
+          "description": "Un juego de 4 sillas de comedor tapizadas en tela de alta calidad y patas de madera.",
+          "category": "comedor",
+          "image": "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "rating": {
+            "rate": 4.6,
+            "count": 92
+          },
+          "colors": ["gris", "beige"],
+          "medidas": {
+            "ancho": "50 cm",
+            "alto": "100 cm",
+            "profundidad": "50 cm"
+          }
+        },
+        {
+          "name": "Aparador de Comedor de Estilo Moderno",
+          "price": 599.99,
+          "description": "Un aparador de comedor de estilo moderno con cajones y estantes para almacenamiento adicional.",
+          "category": "comedor",
+          "image": "https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "rating": {
+            "rate": 4.5,
+            "count": 76
+          },
+          "colors": ["blanco", "negro"],
+          "medidas": {
+            "ancho": "160 cm",
+            "alto": "90 cm",
+            "profundidad": "40 cm"
+          }
+        },
+        {
+          "name": "Lámpara de Techo de Cristal",
+          "price": 129.99,
+          "description": "Una elegante lámpara de techo de cristal para iluminar tu mesa de comedor con estilo.",
+          "category": "comedor",
+          "image": "https://www.lauraashley.es/20154-thickbox_default/lampara-ockley-cristal-transparente.jpg",
+          "rating": {
+            "rate": 4.4,
+            "count": 68
+          },
+          "colors": ["cristal"],
+          "medidas": {
+            "diámetro": "40 cm",
+            "alto": "50 cm"
+          }
+        },
+        {
+          "name": "Mesa de Comedor Redonda de Vidrio",
+          "price": 899.99,
+          "description": "Una mesa de comedor redonda con tapa de vidrio templado y base de acero inoxidable.",
+          "category": "comedor",
+          "image": "https://www.idfdesign.es/imagenes/mesas-comedor-tablero-de-vidrio/art-645-teorema-mesas-con-tablero-de-cristal.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 61
+          },
+          "colors": ["vidrio transparente"],
+          "medidas": {
+            "diámetro": "120 cm",
+            "alto": "75 cm"
+          }
+        },
+        {
+          "name": "Silla de Comedor de Cuero (Juego de 2)",
+          "price": 279.99,
+          "description": "Un juego de 2 sillas de comedor de cuero genuino con respaldo acolchado y patas de metal.",
+          "category": "comedor",
+          "image": "https://m.media-amazon.com/images/I/71xhmVXRaNL._AC_UF894,1000_QL80_.jpg",
+          "rating": {
+            "rate": 4.7,
+            "count": 55
+          },
+          "colors": ["negro", "marrón"],
+          "medidas": {
+            "ancho": "45 cm",
+            "alto": "100 cm",
+            "profundidad": "50 cm"
+          }
+        },
+        {
+          "name": "Mesa de Comedor Extensible de Madera",
+          "price": 1099.99,
+          "description": "Una mesa de comedor extensible de madera con capacidad para adaptarse a grupos grandes.",
+          "category": "comedor",
+          "image": "https://www.portobellostreet.es/imagenes_muebles/Muebles-Mesa-de-comedor-extensible-madera-Moderna-Eliot.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 49
+          },
+          "colors": ["madera natural", "blanco"],
+          "medidas": {
+            "ancho": "160 cm (extensible a 220 cm)",
+            "alto": "75 cm",
+            "profundidad": "90 cm"
+          }
+        },
+        {
+          "name": "Silla de Comedor de Tela (Juego de 6)",
+          "price": 449.99,
+          "description": "Un juego de 6 sillas de comedor tapizadas en tela suave y cómoda con patas de madera.",
+          "category": "comedor",
+          "image": "https://aristas.co/wp-content/uploads/2023/08/AMBIENTE-COMEDOR-ATALANTA-VIDRIO-6-SILLAS-MATIZ.jpg",
+          "rating": {
+            "rate": 4.5,
+            "count": 62
+          },
+          "colors": ["gris claro", "beige"],
+          "medidas": {
+            "ancho": "45 cm",
+            "alto": "95 cm",
+            "profundidad": "50 cm"
+          }
+        },
+        {
+          "name": "Mesa de Comedor de Mármol",
+          "price": 1399.99,
+          "description": "Una mesa de comedor de mármol con un elegante diseño para realzar tu comedor.",
+          "category": "comedor",
+          "image": "https://m.media-amazon.com/images/I/81v7AXSSFSL.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 57
+          },
+          "colors": ["mármol blanco", "mármol negro"],
+          "medidas": {
+            "diámetro": "120 cm",
+            "alto": "75 cm"
+          }
+        },
+        {
+          "name": "Mueble de Bar de Estilo Industrial",
+          "price": 699.99,
+          "description": "Un mueble de bar de estilo industrial con espacio para almacenar bebidas y copas en tu comedor.",
+          "category": "comedor",
+          "image": "https://m.media-amazon.com/images/I/71GYS7k62-L._AC_UF894,1000_QL80_.jpg",
+          "rating": {
+            "rate": 4.7,
+            "count": 51
+          },
+          "colors": ["negro", "madera natural"],
+          "medidas": {
+            "ancho": "120 cm",
+            "alto": "90 cm",
+            "profundidad": "40 cm"
+          }
+        },
+        {
+          "name": "Juego de Cojines Decorativos (Juego de 4)",
+          "price": 49.99,
+          "description": "Un juego de 4 cojines decorativos con patrones elegantes para añadir un toque de estilo a tu sofá o cama.",
+          "category": "accesorios",
+          "image": "https://images.pexels.com/photos/15253314/pexels-photo-15253314/free-photo-of-negro-retro-mueble-sofa.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "rating": {
+            "rate": 4.7,
+            "count": 84
+          },
+          "colors": ["azul", "rojo", "verde", "gris"],
+          "medidas": {
+            "ancho": "45 cm",
+            "largo": "45 cm"
+          }
+        },
+        {
+          "name": "Espejo de Pared con Marco de Madera",
+          "price": 79.99,
+          "description": "Un espejo de pared con un elegante marco de madera para realzar la decoración de tu hogar.",
+          "category": "accesorios",
+          "image": "https://treevol.com/cdn/shop/files/Espejo-Rectangular-Marsala-Caramelo-Lateral-Ambientado-Virtual-Muebles-Espejos-EMP4028Z14.png?v=1693978313",
+          "rating": {
+            "rate": 4.6,
+            "count": 92
+          },
+          "colors": ["madera natural", "blanco", "negro"],
+          "medidas": {
+            "ancho": "60 cm",
+            "alto": "80 cm"
+          }
+        },
+        {
+          "name": "Lámpara de Mesa de Cerámica",
+          "price": 29.99,
+          "description": "Una lámpara de mesa de cerámica con pantalla de tela para iluminar tus rincones favoritos.",
+          "category": "accesorios",
+          "image": "https://vpinteriorismo.com/12589-large_default/lampara-mesa-ceramica-julieta-c-pantalla.jpg",
+          "rating": {
+            "rate": 4.5,
+            "count": 76
+          },
+          "colors": ["blanco", "azul", "gris"],
+          "medidas": {
+            "alto": "30 cm"
+          }
+        },
+        {
+          "name": "Reloj de Pared de Estilo Vintage",
+          "price": 39.99,
+          "description": "Un reloj de pared de estilo vintage con números romanos para dar un toque clásico a tu hogar.",
+          "category": "accesorios",
+          "image": "https://www.mobilirebecca.it/24381-thickbox_default_square/reloj-de-pared-para-la-cocina-de-estilo-vintage.jpg",
+          "rating": {
+            "rate": 4.4,
+            "count": 68
+          },
+          "colors": ["negro", "blanco"],
+          "medidas": {
+            "diámetro": "30 cm"
+          }
+        },
+        {
+          "name": "Jarrón de Cristal Transparente",
+          "price": 19.99,
+          "description": "Un jarrón de cristal transparente para mostrar tus flores frescas y dar vida a cualquier habitación.",
+          "category": "accesorios",
+          "image": "https://images.pexels.com/photos/6899533/pexels-photo-6899533.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "rating": {
+            "rate": 4.8,
+            "count": 61
+          },
+          "colors": ["cristal"],
+          "medidas": {
+            "diámetro": "15 cm",
+            "alto": "25 cm"
+          }
+        },
+        {
+          "name": "Manta de Punto Grueso",
+          "price": 59.99,
+          "description": "Una manta de punto grueso y suave para mantenerte cálido y acogedor en las noches frías de invierno.",
+          "category": "accesorios",
+          "image": "https://images.pexels.com/photos/5788496/pexels-photo-5788496.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "rating": {
+            "rate": 4.7,
+            "count": 55
+          },
+          "colors": ["gris", "blanco", "azul"],
+          "medidas": {
+            "ancho": "130 cm",
+            "largo": "150 cm"
+          }
+        },
+        {
+          "name": "Candelabro de Metal Dorado",
+          "price": 49.99,
+          "description": "Un candelabro de metal dorado elegante para crear un ambiente romántico en tu hogar.",
+          "category": "accesorios",
+          "image": "https://images.pexels.com/photos/6667306/pexels-photo-6667306.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "rating": {
+            "rate": 4.5,
+            "count": 62
+          },
+          "colors": ["dorado"],
+          "medidas": {
+            "ancho": "15 cm",
+            "alto": "40 cm"
+          }
+        },
+        {
+          "name": "Alfombra de Área de Estilo Bohemio",
+          "price": 89.99,
+          "description": "Una alfombra de área de estilo bohemio con colores vibrantes para dar vida a tu sala de estar o dormitorio.",
+          "category": "accesorios",
+          "image": "https://m.media-amazon.com/images/I/91pV1xVimBL._AC_SL1500_.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 57
+          },
+          "colors": ["multicolor"],
+          "medidas": {
+            "ancho": "160 cm",
+            "largo": "230 cm"
+          }
+        },
+        {
+          "name": "Juego de Toallas de Baño (Juego de 6)",
+          "price": 29.99,
+          "description": "Un juego de 6 toallas de baño suaves y absorbentes en varios colores para tu baño.",
+          "category": "accesorios",
+          "image": "https://images.ecestaticos.com/eREz6b4H2u7qMI2U7l3vZnYzxp8=/0x0:1280x853/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F9a9%2F39d%2Fb0b%2F9a939db0b7bd5d31f0c5972a223b302f.jpg",
+          "rating": {
+            "rate": 4.4,
+            "count": 68
+          },
+          "colors": ["blanco", "azul", "gris"],
+          "medidas": {
+            "ancho": "70 cm",
+            "largo": "140 cm"
+          }
+        },
+        {
+          "name": "Portavelas de Vidrio (Juego de 3)",
+          "price": 19.99,
+          "description": "Un juego de 3 portavelas de vidrio para crear una atmósfera acogedora con velas en tu hogar.",
+          "category": "accesorios",
+          "image": "https://m.media-amazon.com/images/I/71ziqWCPJkL._AC_UF894,1000_QL80_.jpg",
+          "rating": {
+            "rate": 4.8,
+            "count": 61
+          },
+          "colors": ["cristal"],
+          "medidas": {
+            "diámetro": "8 cm",
+            "alto": "10 cm"
+          }
+        }
+                      
+  ]
+  
+}
