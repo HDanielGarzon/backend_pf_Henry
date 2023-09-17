@@ -10,10 +10,10 @@ const { searchProduct } = require("../handlers/productsHandlers/searchProduct");
 
 
 // endpoints: ruta de acceso a nuestro backend;
-userRouter.get("/search/",searchProduct)
-userRouter.get("/all", productAllHandler);
+userRouter.get("/search",searchProduct)
+userRouter.get("/", productAllHandler);
 userRouter.post("/create",productCreate)
-userRouter.delete("/delete/:id",deleteProduct)
+userRouter.delete("/:id",deleteProduct)
 
 
 module.exports = userRouter;

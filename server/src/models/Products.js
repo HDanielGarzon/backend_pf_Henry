@@ -4,10 +4,15 @@ module.exports = (sequelize) => {
   sequelize.define(
     "Products",
     {
+      // id: {
+      //   type:DataTypes.UUID,
+      //   primaryKey:true,
+      //   defaultValue:DataTypes.UUIDV4,
+      // },
       id: {
-        type:DataTypes.UUID,
-        primaryKey:true,
-        defaultValue:DataTypes.UUIDV4,
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
       },
       name: {
         type: DataTypes.STRING,
@@ -17,22 +22,18 @@ module.exports = (sequelize) => {
       //   type: DataTypes.STRING,
       //   allowNull: true,
       // },
-      color: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        // validate: {
-        //   isUrl: true,
-        // },
+      colors: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        allowNull: true,
       },
-     
-     image: {
+
+      image: {
         type: DataTypes.STRING,
         allowNull: true,
-       
       },
-      measures: {
+      medidas: {
         type: DataTypes.JSON,
-        allowNull: false,
+        allowNull: true,
         validate: {
           isValidMeasures(value) {
             // Verifica si el objeto tiene solo las propiedades height, width y depth
@@ -43,10 +44,28 @@ module.exports = (sequelize) => {
               !("width" in value) ||
               !("depth" in value)
             ) {
-              throw new Error("Las medidas deben incluir height, width y depth.");
+              throw new Error(
+                "Las medidas deben incluir height, width y depth."
+              );
             }
           },
         },
+      },
+      // measures: {
+      //   type: DataTypes.JSON,
+      //   allowNull: false,
+      // },
+      description: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
+      rating: {
+        type: DataTypes.JSON,
+        allowNull: true,
+      },
+      price: {
+        type: DataTypes.DECIMAL,
+        allowNull: true,
       },
     },
     { timestamps: false }
