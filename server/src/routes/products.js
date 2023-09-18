@@ -6,6 +6,7 @@ const { productAllHandler } = require("../handlers/productsHandlers/productAllHa
 const { productCreate } = require("../handlers/productsHandlers/productCreate");
 const { deleteProduct } = require("../handlers/productsHandlers/deleteProduct");
 const { searchProduct } = require("../handlers/productsHandlers/searchProduct");
+const { updateProduct } = require("../handlers/productsHandlers/updateProduct");
 
 
 
@@ -14,6 +15,7 @@ userRouter.get("/search",searchProduct)
 userRouter.get("/", productAllHandler);
 userRouter.post("/create",productCreate)
 userRouter.delete("/:id",deleteProduct)
+userRouter.put("/update/:id",updateProduct)
 
 
 module.exports = userRouter;
