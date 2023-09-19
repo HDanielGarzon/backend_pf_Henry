@@ -31,30 +31,30 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: true,
       },
-      measures: {
-        type: DataTypes.JSON,
-        allowNull: true,
-        validate: {
-          isValidMeasures(value) {
-            // Verifica si el objeto tiene solo las propiedades height, width y depth
-            if (
-              !value ||
-              typeof value !== "object" ||
-              !("height" in value) ||
-              !("width" in value) ||
-              !("deep" in value)
-            ) {
-              throw new Error(
-                "Las medidas deben incluir height, width y deep."
-              );
-            }
-          },
-        },
-      },
       // measures: {
       //   type: DataTypes.JSON,
-      //   allowNull: false,
+      //   allowNull: true,
+      //   validate: {
+      //     isValidMeasures(value) {
+      //       // Verifica si el objeto tiene solo las propiedades height, width y depth
+      //       if (
+      //         !value ||
+      //         typeof value !== "object" ||
+      //         !("height" in value) ||
+      //         !("width" in value) ||
+      //         !("deep" in value)
+      //       ) {
+      //         throw new Error(
+      //           "Las medidas deben incluir height, width y deep."
+      //         );
+      //       }
+      //     },
+      //   },
       // },
+      measures: {
+        type: DataTypes.JSON,
+        allowNull: false,
+      },
       description: {
         type: DataTypes.STRING,
         allowNull: true,
