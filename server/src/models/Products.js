@@ -17,6 +17,7 @@ module.exports = (sequelize) => {
       name: {
         type: DataTypes.STRING,
         allowNull: false,
+        unique:true
       },
       // categoria: {
       //   type: DataTypes.STRING,
@@ -53,7 +54,7 @@ module.exports = (sequelize) => {
       // },
       measures: {
         type: DataTypes.JSON,
-        allowNull: false,
+        allowNull: true,
       },
       description: {
         type: DataTypes.STRING,
