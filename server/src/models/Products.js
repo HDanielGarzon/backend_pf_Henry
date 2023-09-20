@@ -42,10 +42,10 @@ module.exports = (sequelize) => {
               typeof value !== "object" ||
               !("height" in value) ||
               !("width" in value) ||
-              !("deep" in value)
+              !("depth" in value)
             ) {
               throw new Error(
-                "Las medidas deben incluir height, width y deep."
+                "Las medidas deben incluir height, width y depth."
               );
             }
           },
