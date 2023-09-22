@@ -33,6 +33,9 @@ const productAllController = async () => {
 //-_____________________________________________
 
   const productos = await Products.findAll({
+    attributes: {
+      exclude: ['category'] 
+    },
     include: { model: Category,  through:{// y de la tabla intermedia 
       attributes:[]//ninguno
   } },
