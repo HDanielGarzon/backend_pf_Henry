@@ -17,12 +17,11 @@ module.exports = (sequelize) => {
       name: {
         type: DataTypes.STRING,
         allowNull: false,
-        unique:true
+        // unique:true
       },
-      // categoria: {
-      //   type: DataTypes.STRING,
-      //   allowNull: true,
-      // },
+      category: {
+        type: DataTypes.STRING,
+      },
       colors: {
         type: DataTypes.ARRAY(DataTypes.STRING),
         allowNull: true,

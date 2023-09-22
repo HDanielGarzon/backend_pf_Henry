@@ -60,7 +60,7 @@ const productAllController = async () => {
   //     await producto.setCategory(category);
   //   }
 
-    console.log("???????????'", productos[0]);
+    // console.log("???????????'", productos[0]);
 
     return productos;
 //   const result = productos?.map((elem) => {
