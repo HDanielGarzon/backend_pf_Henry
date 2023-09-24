@@ -1,9 +1,10 @@
-const {User, Customer} = require('../../db');
+const {User, Administrator} = require('../../db');
 const bcrypt = require('bcrypt');
-const userCustCreate = async (req, res) => {
-    const {	name,lastName,nikName,email,password,gender,phoneNumber,shippingAddress,defaultPaymentMethod}= req.body
+const userAdmCreate = async (req, res) => {
+    const {	name,lastName,nikName,email,password,role,address,areaOfResponsibility}= req.body
+    
     try {
-      if(!name || !lastName || !nikName || !email || !password || !gender || !phoneNumber || !shippingAddress || !defaultPaymentMethod ){
+      if(!name || !lastName || !nikName || !email || !password || !role || !address || !areaOfResponsibility ){
         return res.status(404).json({message:"insufficient data"});
       };
 
@@ -18,21 +19,18 @@ const userCustCreate = async (req, res) => {
         nikName,
         email,
         password: hashedPassword,
-        //role
-        role:'customer'
+        role
+        // rol:'customer'
       });
 
-      await Customer.create({
+      await Administrator.create({
         UserId: newUser.id,
-        gender,
-        phoneNumber,
-        shippingAddress,
-        defaultPaymentMethod,
+        address,
+        areaOfResponsibility
       });
-      return res.status(201).json({ message: 'Cliente creado con éxito.'});
+      return res.status(201).json({ message: 'Administador creado con éxito.'});
     } catch (error) {
       res.status(400).json({ error: error.message });
     }
   };
-  module.exports = { userCustCreate };
-
+  module.exports = { userAdmCreate };

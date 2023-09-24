@@ -27,6 +27,7 @@ async function cargarDatos() {
     const productApi = (await axios.get("http://localhost:5000/products")).data;
     const productDb = await Products.bulkCreate(productApi);
 
+
     for (const product of productDb) {
       for (const category of categoryDb) {
         if (product.category === category.name) {
@@ -112,4 +113,5 @@ cargarDatos();
 
 // // Llama a la función para cargar los datos
 // cargarDatos();
+
 
