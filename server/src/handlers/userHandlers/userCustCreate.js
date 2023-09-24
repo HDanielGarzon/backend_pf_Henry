@@ -1,9 +1,9 @@
 const {User, Customer} = require('../../db');
 // const bcrypt = require('bcrypt');
 const userCustCreate = async (req, res) => {
-    const {	name,lastName,nikName,email,password,role,gender,phoneNumber,shippingAddress,defaultPaymentMethod}= req.body
+    const {	name,lastName,nikName,email,password,gender,phoneNumber,shippingAddress,defaultPaymentMethod}= req.body
     try {
-      if(!name || !lastName || !nikName || !email || !password || !role || !gender || !phoneNumber || !shippingAddress || !defaultPaymentMethod ){
+      if(!name || !lastName || !nikName || !email || !password || !gender || !phoneNumber || !shippingAddress || !defaultPaymentMethod ){
         return res.status(404).json({message:"insufficient data"});
       };
 
@@ -18,8 +18,8 @@ const userCustCreate = async (req, res) => {
         nikName,
         email,
         password: hashedPassword,
-        role
-        //role:'customer'
+        //role
+        role:'customer'
       });
 
       await Customer.create({

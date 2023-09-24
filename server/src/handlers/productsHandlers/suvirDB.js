@@ -1,4 +1,4 @@
-const { Products, Category } = require("../../db"); // Asegúrate de importar los modelos correctos de Sequelize
+const { Product, Category } = require("../../db"); // Asegúrate de importar los modelos correctos de Sequelize
 const { muebles } = require("../../fillDB/data");
 
 const createProductsAndRelations = async () => {
@@ -18,14 +18,14 @@ const createProductsAndRelations = async () => {
         const category = categoryMap.get(mueble.category);
         if (category) {
           // Crea un producto y establece sus atributos
-          const product = await Products.create({
+          const product = await Product.create({
             name: mueble.name,
             color: mueble.color,
             // Agrega otros atributos del producto aquí
           });
 
           // Asocia el producto con la categoría
-          await product.addCategories(category);
+          await product.addCategory(category);
           return product;
         }
       })
@@ -34,8 +34,8 @@ const createProductsAndRelations = async () => {
     // Devolver los productos creados
     return createdProducts.filter(Boolean);
   } catch (error) {
-    console.error("Error al buscar categorías:", error);
-    throw new Error("Error al buscar categorías");
+    console.error("Error al buscar categorías o crear productos:", error);
+    throw new Error("Error al buscar categorías o crear productos");
   }
 };
 

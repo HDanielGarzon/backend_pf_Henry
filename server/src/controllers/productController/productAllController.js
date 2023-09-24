@@ -33,10 +33,11 @@ const productAllController = async () => {
 //-_____________________________________________
 
   const productos = await Products.findAll({
-    include: { model: Category, 
-        atributes: ['name'], //trae la data mediante el nombre(la propiedad del modelo type)
-        thorugh: {
-          atributes: []//ninguno
+    attributes: {
+      exclude: ['category'] 
+    },
+    include: { model: Category,  through:{// y de la tabla intermedia 
+      attributes:[]//ninguno
   } },
   });
   //   await Promise.all(
@@ -62,7 +63,7 @@ const productAllController = async () => {
   //     await producto.setCategory(category);
   //   }
 
-    console.log("???????????'", productos[0]);
+    // console.log("???????????'", productos[0]);
 
     return productos;
 //   const result = productos?.map((elem) => {
