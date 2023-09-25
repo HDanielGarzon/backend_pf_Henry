@@ -10,6 +10,7 @@
           "rate": 4.7,
           "count": 95
         },
+        "stock": 5,
         "colors": ["marrón", "negro", "gris"],
         "measures": {
           "width": "210 cm",
@@ -27,6 +28,7 @@
             "rate": 4.5,
             "count": 72
           },
+          "stock": 5,
           "colors": ["transparente", "negro"],
           "measures": {
             "width": "90 cm",
@@ -44,6 +46,7 @@
             "rate": 4.6,
             "count": 55
           },
+          "stock": 5,
           "colors": ["negro", "marrón"],
           "measures": {
             "width": "80 cm",
@@ -61,6 +64,7 @@
             "rate": 4.8,
             "count": 45
           },
+          "stock": 5,
           "colors": ["blanco", "negro"],
           "measures": {
             "width": "60 cm",
@@ -78,6 +82,7 @@
             "rate": 4.4,
             "count": 62
           },
+          "stock": 5,
           "colors": ["negro", "plateado"],
           "measures": {
             "height": "160 cm"
@@ -93,6 +98,7 @@
             "rate": 4.6,
             "count": 39
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "width": "100 cm",
@@ -110,6 +116,7 @@
             "rate": 4.7,
             "count": 51
           },
+          "stock": 5,
           "colors": ["gris"],
           "measures": {
             "width": "260 cm",
@@ -127,6 +134,7 @@
             "rate": 4.5,
             "count": 60
           },
+          "stock": 5,
           "colors": ["blanco", "madera natural"],
           "measures": {
             "width": "80 cm",
@@ -144,6 +152,7 @@
             "rate": 4.8,
             "count": 56
           },
+          "stock": 5,
           "colors": ["marrón", "negro"],
           "measures": {
             "width": "180 cm",
@@ -161,6 +170,7 @@
             "rate": 4.6,
             "count": 58
           },
+          "stock": 5,
           "colors": ["blanco", "negro"],
           "measures": {
             "width": "110 cm",
@@ -178,6 +188,7 @@
             "rate": 4.7,
             "count": 53
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "width": "200 cm",
@@ -195,6 +206,7 @@
             "rate": 4.8,
             "count": 42
           },
+          "stock": 5,
           "colors": ["marrón", "blanco"],
           "measures": {
             "width": "120 cm",
@@ -212,6 +224,7 @@
             "rate": 4.6,
             "count": 59
           },
+          "stock": 5,
           "colors": ["blanco", "marrón"],
           "measures": {
             "width": "180 cm",
@@ -229,6 +242,7 @@
             "rate": 4.5,
             "count": 37
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "width": "45 cm",
@@ -246,6 +260,7 @@
             "rate": 4.4,
             "count": 64
           },
+          "stock": 5,
           "colors": ["negro", "plateado"],
           "measures": {
             "height": "150 cm"
@@ -261,6 +276,7 @@
             "rate": 4.6,
             "count": 48
           },
+          "stock": 5,
           "colors": ["gris", "azul"],
           "measures": {
             "width": "70 cm",
@@ -278,6 +294,7 @@
             "rate": 4.3,
             "count": 68
           },
+          "stock": 5,
           "colors": ["gris oscuro", "beige"],
           "measures": {
             "width": "140 cm",
@@ -294,6 +311,7 @@
             "rate": 4.8,
             "count": 57
           },
+          "stock": 5,
           "colors": ["negro", "blanco"],
           "measures": {
             "width": "50 cm",
@@ -310,6 +328,7 @@
             "rate": 4.5,
             "count": 55
           },
+          "stock": 5,
           "colors": ["negro", "marrón"],
           "measures": {
             "width": "100 cm",
@@ -327,6 +346,7 @@
             "rate": 4.8,
             "count": 48
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "width": "40 cm",
@@ -344,6 +364,7 @@
             "rate": 4.6,
             "count": 73
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "width": "120 cm",
@@ -361,6 +382,7 @@
             "rate": 4.7,
             "count": 66
           },
+          "stock": 5,
           "colors": ["negro", "gris"],
           "measures": {
             "width": "60 cm",
@@ -378,6 +400,7 @@
             "rate": 4.8,
             "count": 61
           },
+          "stock": 5,
           "colors": ["negro", "blanco"],
           "measures": {
             "height": "40 cm"
@@ -393,6 +416,7 @@
             "rate": 4.8,
             "count": 45
           },
+          "stock": 5,
           "colors": ["madera natural", "negro"],
           "measures": {
             "width": "80 cm",
@@ -410,6 +434,7 @@
             "rate": 4.5,
             "count": 60
           },
+          "stock": 5,
           "colors": ["madera natural", "negro"],
           "measures": {
             "width": "120 cm",
@@ -427,6 +452,7 @@
             "rate": 4.7,
             "count": 50
           },
+          "stock": 5,
           "colors": ["negro", "gris"],
           "measures": {
             "width": "60 cm",
@@ -444,6 +470,7 @@
             "rate": 4.4,
             "count": 68
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "width": "80 cm",
@@ -461,6 +488,7 @@
             "rate": 4.7,
             "count": 51
           },
+          "stock": 5,
           "colors": ["negro", "blanco"],
           "measures": {
             "width": "120 cm",
@@ -478,6 +506,7 @@
             "rate": 4.5,
             "count": 39
           },
+          "stock": 5,
           "colors": ["madera natural", "negro"],
           "measures": {
             "width": "100 cm",
@@ -495,6 +524,7 @@
             "rate": 4.6,
             "count": 49
           },
+          "stock": 5,
           "colors": ["negro", "blanco"],
           "measures": {
             "width": "100 cm",
@@ -512,6 +542,7 @@
             "rate": 4.7,
             "count": 84
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "diameter": "150 cm",
@@ -528,6 +559,7 @@
             "rate": 4.6,
             "count": 92
           },
+          "stock": 5,
           "colors": ["gris", "beige"],
           "measures": {
             "width": "50 cm",
@@ -545,6 +577,7 @@
             "rate": 4.5,
             "count": 76
           },
+          "stock": 5,
           "colors": ["blanco", "negro"],
           "measures": {
             "width": "160 cm",
@@ -562,6 +595,7 @@
             "rate": 4.4,
             "count": 68
           },
+          "stock": 5,
           "colors": ["cristal"],
           "measures": {
             "diameter": "40 cm",
@@ -578,6 +612,7 @@
             "rate": 4.8,
             "count": 61
           },
+          "stock": 5,
           "colors": ["vidrio transparente"],
           "measures": {
             "diameter": "120 cm",
@@ -594,6 +629,7 @@
             "rate": 4.7,
             "count": 55
           },
+          "stock": 5,
           "colors": ["negro", "marrón"],
           "measures": {
             "width": "45 cm",
@@ -611,6 +647,7 @@
             "rate": 4.6,
             "count": 49
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco"],
           "measures": {
             "width": "160 cm (extensible a 220 cm)",
@@ -628,6 +665,7 @@
             "rate": 4.5,
             "count": 62
           },
+          "stock": 5,
           "colors": ["gris claro", "beige"],
           "measures": {
             "width": "45 cm",
@@ -645,6 +683,7 @@
             "rate": 4.6,
             "count": 57
           },
+          "stock": 5,
           "colors": ["mármol blanco", "mármol negro"],
           "measures": {
             "diameter": "120 cm",
@@ -661,6 +700,7 @@
             "rate": 4.7,
             "count": 51
           },
+          "stock": 5,
           "colors": ["negro", "madera natural"],
           "measures": {
             "width": "120 cm",
@@ -678,6 +718,7 @@
             "rate": 4.7,
             "count": 84
           },
+          "stock": 5,
           "colors": ["azul", "rojo", "verde", "gris"],
           "measures": {
             "width": "45 cm",
@@ -694,6 +735,7 @@
             "rate": 4.6,
             "count": 92
           },
+          "stock": 5,
           "colors": ["madera natural", "blanco", "negro"],
           "measures": {
             "width": "60 cm",
@@ -710,6 +752,7 @@
             "rate": 4.5,
             "count": 76
           },
+          "stock": 5,
           "colors": ["blanco", "azul", "gris"],
           "measures": {
             "height": "30 cm"
@@ -725,6 +768,7 @@
             "rate": 4.4,
             "count": 68
           },
+          "stock": 5,
           "colors": ["negro", "blanco"],
           "measures": {
             "diameter": "30 cm"
@@ -740,6 +784,7 @@
             "rate": 4.8,
             "count": 61
           },
+          "stock": 5,
           "colors": ["cristal"],
           "measures": {
             "diameter": "15 cm",
@@ -756,6 +801,7 @@
             "rate": 4.7,
             "count": 55
           },
+          "stock": 5,
           "colors": ["gris", "blanco", "azul"],
           "measures": {
             "width": "130 cm",
@@ -772,6 +818,7 @@
             "rate": 4.5,
             "count": 62
           },
+          "stock": 5,
           "colors": ["dorado"],
           "measures": {
             "width": "15 cm",
@@ -788,6 +835,7 @@
             "rate": 4.6,
             "count": 57
           },
+          "stock": 5,
           "colors": ["multicolor"],
           "measures": {
             "width": "160 cm",
@@ -804,6 +852,7 @@
             "rate": 4.4,
             "count": 68
           },
+          "stock": 5,
           "colors": ["blanco", "azul", "gris"],
           "measures": {
             "width": "70 cm",
@@ -820,6 +869,7 @@
             "rate": 4.8,
             "count": 61
           },
+          "stock": 5,
           "colors": ["cristal"],
           "measures": {
             "diameter": "8 cm",

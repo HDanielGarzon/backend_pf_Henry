@@ -4,24 +4,29 @@ module.exports = (sequelize) => {
   sequelize.define(
     "User",
     {
+      // id: {
+      //   type: DataTypes.INTEGER,
+      //   primaryKey: true,
+      //   autoIncrement: true,
+      // },
       id: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
-        autoIncrement: true,
       },
       name: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-     lastName: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      nikName:{
-        type:DataTypes.STRING,
-        allowNull:false,
-        unique:true
-      },
+    //  lastName: {
+    //     type: DataTypes.STRING,
+    //     allowNull: false,
+    //   },
+    //   nikName:{
+    //     type:DataTypes.STRING,
+    //     allowNull:false,
+    //     unique:true
+    //   },
       email:{
         type:DataTypes.STRING,
         allowNull:false,
@@ -33,6 +38,10 @@ module.exports = (sequelize) => {
       password:{
         type:DataTypes.STRING,
         allowNull:false
+      },
+      recoveryToken:{
+        type:DataTypes.STRING,
+        allowNull:true
       },
       role:{
         type:DataTypes.ENUM('customer', 'administrator'),

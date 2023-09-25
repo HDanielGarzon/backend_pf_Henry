@@ -1,5 +1,5 @@
 const {User, Administrator} = require('../../db');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const userAdmCreate = async (req, res) => {
     const {	name,lastName,nikName,email,password,role,address,areaOfResponsibility}= req.body
     

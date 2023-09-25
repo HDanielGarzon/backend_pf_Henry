@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const routes = require("./routes/index.js");
+const fileUpload = require("express-fileupload");
 //const { Server } = require("socket.io");
 
 require("./db.js"); //para que funciona
@@ -17,12 +18,22 @@ server.use(bodyParser.json({ limit: "50mb" }));
 /* server.use(cookieParser()); */
 server.use(morgan("dev"));
 server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Credentials', 'true');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+  res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
   next();
 });
+
+server.use(
+  fileUpload({
+    useTempFiles: true,
+    tempFileDir: "./uploads",
+  })
+);
 
 server.use("/", routes);
 
@@ -36,7 +47,5 @@ server.use((err, req, res, next) => {
 });
 
 // Eventos de webSocket
-
-
 
 module.exports = server;
