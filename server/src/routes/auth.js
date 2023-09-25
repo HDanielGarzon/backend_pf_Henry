@@ -3,18 +3,20 @@ const { authByEmailPwd } = require("../helpers/auth_by_email_pwd");
 const { user_db } = require("../fillDB/usersfake");
 const { loginUser } = require("../handlers/authHandler/loginUser");
 const { registerUser } = require("../handlers/authHandler/registerUser");
+const { recoveryEmail } = require("../handlers/authHandler/recoveryEmail");
+const { changePassword } = require("../handlers/authHandler/changePassword");
 
 const authRouter = Router();
 
 // Endpoint publico
 authRouter.get("/publico", (req, res) => res.send("Endpoint publico"));
-
-// Endpoint login
 authRouter.post("/login", loginUser);
-
-// Endpoint registrar
-
 authRouter.post("/register", registerUser);
+authRouter.post("/recovery", recoveryEmail )
+authRouter.post("/change-password", changePassword)
+
+
+
 
 module.exports = authRouter;
 // authRouter.post("/autenticado", (req, res) => {

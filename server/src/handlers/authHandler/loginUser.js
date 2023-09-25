@@ -16,10 +16,16 @@ const loginUser = async (req, res) => {
     const tokenSession = await tokenSing(user);
 
     if (checkPassword) {
-      res.send({ data: user, tokenSession });
+        const userCopy = { ...user.toJSON() };
+        delete userCopy.password;
+        delete userCopy.recoveryToken;
+        return res.send({ data: userCopy, tokenSession });
+    } else {
+      return res.status(401).send({ error: "Incorrect password" });
     }
-    return;
-  } catch (error) {}
+  } catch (error) {
+    res.send({ error: error.message });
+  }
 };
 
 module.exports = { loginUser };

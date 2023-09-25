@@ -1,4 +1,4 @@
-const {uploadImage}=require('../../utils/cloudinary')
+const {uploadImage}=require('../../utils/cloudinary/cloudinary')
 const {Products, Category} = require('../../db');
 const fs = require('fs-extra')
 
