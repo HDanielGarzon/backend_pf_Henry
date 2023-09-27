@@ -2,24 +2,33 @@ const { User, Order, Products, Op } = require('../../db');
 
 const orderCreate = async (req, res) => {
   try {
-    const { orderDate, totalAmount, status, userId, productIds } = req.body;
+    const {  items,total,nombre,apellido,telefono,email,direccion,nota, ordenId,orderDate} = req.body;
 
-    const user = await User.findByPk(userId);
+    const user = await User.findOne({
+      where:{email}
+    });
 
     if (!user) {
       return res.status(400).json({ error: 'El usuario no existe' });
     }
 
+
     const order = await Order.create({
       UserId: user.id, // Asigna el usuario a la orden
+      ordenId,
+      nombre,
+      apellido,
+      telefono,
+      email,
+      direccion,
+      nota,
       orderDate,
-      totalAmount,
-      status,
+      total,
     });
 
-    if (productIds && productIds.length > 0) {
+    if (items && items.length > 0) {
       const products = await Products.findAll({
-        where: { id: { [Op.in]: productIds } }, // Busca los productos por sus IDs
+        where: { id: { [Op.in]: items } }, // Busca los productos por sus IDs
       });
 
       // Asocia los productos a la orden
