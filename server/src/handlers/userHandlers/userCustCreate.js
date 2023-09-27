@@ -1,5 +1,5 @@
 const {User, Customer} = require('../../db');
-// const bcrypt = require('bcrypt');
+ const bcrypt = require('bcrypt');
 const userCustCreate = async (req, res) => {
     const {	name,lastName,nikName,email,password,gender,phoneNumber,shippingAddress,defaultPaymentMethod}= req.body
     try {
