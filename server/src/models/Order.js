@@ -5,8 +5,11 @@ module.exports = (sequelize) => {
     "Order",
     {
       ordenId: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
+        // type: DataTypes.INTEGER,
+        // primaryKey: true,
         //autoIncrement: true, // Hace que el número de orden sea autoincrementable
       },
       nombre:{
@@ -36,7 +39,7 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       status: {
-        type: DataTypes.ENUM('pendiente', 'procesando', 'completado', 'cancelado'),
+        type: DataTypes.ENUM('pendiente', 'completado', 'cancelado'),
         //allowNull: false,
         defaultValue: 'pendiente',
       },
