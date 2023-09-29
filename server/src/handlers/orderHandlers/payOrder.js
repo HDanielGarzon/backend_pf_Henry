@@ -6,7 +6,7 @@ const stripe = require("stripe")(STRIPE_KEY);
 
 const payOrder = async (req, res) => {
   const { email, token, orderId } = req.body;
-  
+  ///token objeto info de la targeta 
   try {
     const order = await Order.findOne({
       where: {
@@ -49,7 +49,7 @@ const payOrder = async (req, res) => {
       // Puedes actualizar el estado del pedido o realizar otras acciones aquí
       await Order.update(
         {
-          status: "paid",
+          status: "completado",
         },
         {
           where: {
