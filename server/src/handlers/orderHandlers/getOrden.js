@@ -3,7 +3,7 @@ const { Order,User, Products} = require('../../db');
 const getOrden = async (req, res) => {
     const {email} = req.params
   try {
-    const orden = await Order.findOne({
+    const orden = await Order.findAll({
         where:{email},
       include: [
         { model: User, required: true },
