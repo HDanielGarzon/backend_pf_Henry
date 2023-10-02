@@ -6,6 +6,8 @@ const morgan = require("morgan");
 const routes = require("./routes/index.js");
 const fileUpload = require("express-fileupload");
 //const { Server } = require("socket.io");
+const multer = require('multer')
+const path = require("path");
 
 require("./db.js"); //para que funciona
 
@@ -34,6 +36,10 @@ server.use(
     tempFileDir: "./uploads",
   })
 );
+
+server.use(multer({
+  dest: path.join(__dirname,'public/uploads')
+}).single('image'));
 
 server.use("/", routes);
 

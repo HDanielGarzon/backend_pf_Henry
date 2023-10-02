@@ -20,7 +20,6 @@ const userCustCreate = async (req, res) => {
         // nikName,
         email,
         password: hashedPassword,
-        //role
         role:'customer'
       });
 
