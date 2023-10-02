@@ -5,6 +5,8 @@ const { loginUser } = require("../handlers/authHandler/loginUser");
 const { registerUser } = require("../handlers/authHandler/registerUser");
 const { recoveryEmail } = require("../handlers/authHandler/recoveryEmail");
 const { changePassword } = require("../handlers/authHandler/changePassword");
+const { wellcomeEmail } = require("../handlers/authHandler/wellcomeEmail");
+const { buyEmail } = require("../handlers/authHandler/buyEmail");
 
 const authRouter = Router();
 
@@ -12,7 +14,9 @@ const authRouter = Router();
 authRouter.get("/publico", (req, res) => res.send("Endpoint publico"));
 authRouter.post("/login", loginUser);
 authRouter.post("/register", registerUser);
-authRouter.post("/recovery", recoveryEmail )
+authRouter.post("/recovery", recoveryEmail );
+authRouter.post("/wellcome", wellcomeEmail );
+authRouter.post("/buy", buyEmail );
 authRouter.post("/change-password", changePassword)
 
 

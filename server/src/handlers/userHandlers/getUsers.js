@@ -1,4 +1,5 @@
 const { verifyToken } = require("../../helpers/generateTokens");
+const {User} = require("../../db");
 
 const getUsers = async (req, res) => {
   try {
@@ -6,7 +7,8 @@ const getUsers = async (req, res) => {
     const tokenData = await verifyToken(token);
     console.log("tokenData", tokenData);
     if (tokenData.id) {
-      res.send(tokenData);
+       const user= await User.findOne({where:{id:tokenData.id}})
+      res.send(user);
     } else res.status(409).send({ error: "Tu por aqui no pasas!" });
   } catch (error) {}
 };

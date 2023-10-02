@@ -13,7 +13,8 @@ const {deleteUser} = require('../handlers/userHandlers/deleteUser')
 
 // endpoints: ruta de acceso a nuestro backend;
 userRouter.post('/create-customer',userCustCreate)
-userRouter.get('/auth',checkRoleAuth(['administrator']), getUsers)
+userRouter.get('/auth', getUsers)
+userRouter.get('/authadmin',checkRoleAuth(['administrator']), getUsers)
 // endpoints: ruta de acceso a nuestro backend;
 
 userRouter.post('/create-administrator', userAdmCreate)
