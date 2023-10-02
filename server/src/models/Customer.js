@@ -4,12 +4,12 @@ module.exports = (sequelize) => {
     sequelize.define(
       "Customer",
       {
-        gender:{
-            type:DataTypes.ENUM('male','female')
-        },
+        // gender:{
+        //     type:DataTypes.ENUM('male','female')
+        // },
         phoneNumber:{
             type:DataTypes.STRING,
-            allowNull:false
+            allowNull:true
         },
         shippingAddress: {
             type: DataTypes.STRING,
@@ -18,6 +18,7 @@ module.exports = (sequelize) => {
           defaultPaymentMethod: {
             type: DataTypes.STRING,
             allowNull: true,
+            defaultValue: 'targeta',
           },
       },
       { timestamps: false }
