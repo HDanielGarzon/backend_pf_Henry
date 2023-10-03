@@ -7,12 +7,15 @@ const { recoveryEmail } = require("../handlers/authHandler/recoveryEmail");
 const { changePassword } = require("../handlers/authHandler/changePassword");
 const { wellcomeEmail } = require("../handlers/authHandler/wellcomeEmail");
 const { buyEmail } = require("../handlers/authHandler/buyEmail");
+const { checkRoleAuth } = require("../middlerware/checkRoleAuth");
+const { loginUserAdmin } = require("../handlers/authHandler/loginUserAdmin");
 
 const authRouter = Router();
 
 // Endpoint publico
 authRouter.get("/publico", (req, res) => res.send("Endpoint publico"));
 authRouter.post("/login", loginUser);
+authRouter.post("/loginadmin", loginUserAdmin);
 authRouter.post("/register", registerUser);
 authRouter.post("/recovery", recoveryEmail );
 authRouter.post("/wellcome", wellcomeEmail );
