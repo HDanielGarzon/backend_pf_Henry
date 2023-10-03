@@ -875,6 +875,74 @@
             "diameter": "8 cm",
             "height": "10 cm"
           }
+        },
+        {
+          "name": "Sillon Paris -2 Cuerpos",
+          "price": 1150,
+          "description": "Particularidad de contar con asientos extensibles para descansar cómodamente las piernas.",
+          "category": "salas",
+          "image": "https://ballsellings.com/104909-large_default/sillon-paris-2-cuerpos.jpg",
+          "rating": {
+            "rate": 5,
+            "count": 61
+          },
+          "stock": 5,
+          "colors": ["blanco", "cafe"],
+          "measures": {
+            "diameter": "180 cm",
+            "height": "105 cm"
+          }
+        },
+        {
+          "name": "Sillon nepal lino - individual",
+          "price": 150.98,
+          "description": "Simple y Moderno. Sillón realizado en Lino de gran porte y gran comodidad.",
+          "category": "salas",
+          "image": "https://ballsellings.com/109764-large_default/sillon-nepal-lino-individual.jpg",
+          "rating": {
+            "rate": 4,
+            "count": 56
+          },
+          "stock": 5,
+          "colors": ["negro", "amarillo"],
+          "measures": {
+            "diameter": "70 cm",
+            "height": "90 cm"
+          }
+        },
+        {
+          "name": "Sillon dubai -3 cuerpos",
+          "price": 2000,
+          "description": "Sillón Modular 3 cuerpos con baulera y extensión de asientos para mayor comodidad. ",
+          "category": "salas",
+          "image": "https://ballsellings.com/105067-large_default/sillon-dubai-3-cuerpos.jpg",
+          "rating": {
+            "rate": 5,
+            "count": 65
+          },
+          "stock": 5,
+          "colors": ["negro", "cafe","blanco"],
+          "measures": {
+            "diameter": "98 cm",
+            "height": "110 cm"
+          }
+        },
+        {
+          "name": "Cama box - 90X190CM",
+          "price": 500,
+          "description": "Apto para 90 x 190 / Frentes laqueados blanco 4 cajones / 1 zapatero. Zona de ventilación para colchón",
+          "category": "dormitorio",
+          "image": "https://ballsellings.com/104372-large_default/cama-box-multifuncion-90x190cm.jpg",
+          "rating": {
+            "rate": 5,
+            "count": 60
+          },
+          "stock": 5,
+          "colors": ["blanco"],
+          "measures": {
+            "diameter": "210 cm",
+            "height": "34 cm"
+          }
         }
                       
   ]

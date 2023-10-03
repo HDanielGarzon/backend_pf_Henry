@@ -67,6 +67,10 @@ module.exports = (sequelize) => {
         type: DataTypes.DECIMAL,
         allowNull: true,
       },
+      stock:{
+        type:DataTypes.INTEGER,
+        allowNull:true,
+      }
     },
     { timestamps: false }
   );

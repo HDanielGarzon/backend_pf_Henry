@@ -1,12 +1,12 @@
 const cloudinary = require('cloudinary').v2;
 const {Products, Category} = require('../../db');
 const productCreate = async (req, res) => {
-    const {name,colors,measures,description,rating,price,category,image}= req.body
+    const {name,colors,measures,description,rating,price,category,image,stock}= req.body
     
     try {
       // console.log(colors);
       
-      if( !name || !colors || !image || !measures || !description || !rating || !price ){
+      if( !name || !colors || !image || !measures || !description || !rating || !price || !stock){
         return res.status(404).json({message:"insufficient data"});
       };
       if(category.length === 0){
@@ -21,7 +21,7 @@ const productCreate = async (req, res) => {
       );
 
       const newProduct= await Products.create({
-        name,colors,image,measures,description,rating,price
+        name,colors,image,measures,description,rating,price,stock
       });
       await newProduct.addCategories(getCategoriesId);
       res.status(200).json({message:"Product created successfully"})
