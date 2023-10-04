@@ -29,7 +29,7 @@ const buySendEmail = async (email) => {
     from: "correopruebadesarrollo77@gmail.com", // sender address
     to: `${user.email}`, // list of receivers
     subject: "Estado de compra",
-    html: `<b>Hola ${user.name}, te damos la bienvenida a Divano y te invitamos a conocer más de nuestros productos en el siguiente enlace:  ${link}</b>`, // html body
+    html: `<b>Hola ${user.name}, te damos la bienvenida a Divano. ¡Tu compra fue EXITOSA!</b>`, // html body
   });
 
   // console.log("Message sent: %s", info.messageId);
