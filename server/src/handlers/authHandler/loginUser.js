@@ -9,7 +9,7 @@ const loginUser = async (req, res) => {
     const user = await User.findOne({ where: {email: email} });
 
     if (!user) {
-      res.status(404).send({ error: "user not found" });
+      return res.status(404).send({ error: "user not found" });
     }
     const checkPassword = await compare(password, user.password);
 
@@ -24,7 +24,7 @@ const loginUser = async (req, res) => {
       return res.status(401).send({ error: "Incorrect password" });
     }
   } catch (error) {
-    res.send({ error: error.message });
+    return res.send({ error: error.message });
   }
 };
 
