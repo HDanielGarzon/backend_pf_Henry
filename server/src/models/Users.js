@@ -46,6 +46,10 @@ module.exports = (sequelize) => {
       role:{
         type:DataTypes.ENUM('customer', 'administrator'),
         allowNull:false
+      },
+      isActive:{
+        type:DataTypes.BOOLEAN,
+        defaultValue: true
       }
     },
     { timestamps: false }
