@@ -2,7 +2,7 @@ const { User} = require("../../db");
 
 const updateCustom = async (req, res) => {
     const { id } = req.params;
-    const {name, lastname,nikName,email,password,gender,phoneNumber,shippingAddress,defaultPaymentMethod} = req.body;
+    const {name, lastname,email,phoneNumber,shippingAddress,defaultPaymentMethod} = req.body;
 
     try {
         const user = await User.findOne({
@@ -12,10 +12,10 @@ const updateCustom = async (req, res) => {
         // Actualiza las propiedades del producto con los valores proporcionados en req.body
         user.name = name ;
         user.lastname= lastname;
-        user.nikName = nikName;
+        // user.nikName = nikName;
         user.email= email
-        user.password=password
-        user.gender = gender
+        // user.password=password
+        // user.gender = gender
         user.phoneNumber=phoneNumber
         user.shippingAddres=shippingAddress
         user.defaultPaymentMethod=defaultPaymentMethod
