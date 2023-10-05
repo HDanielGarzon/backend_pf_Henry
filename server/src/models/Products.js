@@ -70,6 +70,10 @@ module.exports = (sequelize) => {
       stock:{
         type:DataTypes.INTEGER,
         allowNull:true,
+      },
+      isActive:{
+        type:DataTypes.BOOLEAN,
+        defaultValue: true
       }
     },
     { timestamps: false }
